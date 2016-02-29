@@ -13,11 +13,11 @@
 
 *This part is for beginners who are new to Data Science*
 
-**Mappr.it** is a blog dedicated to Data Science. This project was born in January 2016 as an attempt to share, with those who have started to become interested in this world, the difficulties and the possible paths available to become a data scientist.
+**Mappr.it** is a blog dedicated to Data Science. This project was born in January 2016 as an attempt to share, with those who have started to become interested in data science world, the difficulties and the possible paths available to find a job.
 
-The method used in this blog is *learning-by-doing*. This blog is targeted to people that, like me, wants to change their perspective using modern statistics tools, regardless of their academic studies, age or job.
+The method used in this blog is *learning-by-doing*. This blog is targeted to people that, like me, want to change their perspective using modern statistics tools, regardless of their academic studies, age or job.
 
-Mappr.it is written by a total beginners and dedicated to total beginners who, like me, wants to work in this field.
+Mappr.it is written by a total beginners, below you will find some useful resources and [here](https://github.com/MarioCatuogno/Mappr.it/wiki) you can find the wiki.
 
 ## Infographic
 <img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="50" /> 
