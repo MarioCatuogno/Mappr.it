@@ -57,6 +57,7 @@ Preview | Description
 ## R Resources
 <img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="50" /> 
 
+* [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/)
 * [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
 * [Cookbook for R](http://www.cookbook-r.com)
 * [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
