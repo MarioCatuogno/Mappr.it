@@ -95,6 +95,7 @@ The Mappr.it wiki hosted on Github repository.
 ## Contact Info
 
 * Email: [catuogno.mario88@gmail.com](mailto:catuogno.mario88@gmail.com)
+* Facebook: [Mappr.it](https://www.facebook.com/mappr.it/)
 * Github: [MarioCatuogno](https://github.com/MarioCatuogno)
 * LinkedIn: [mariocatuogno](https://it.linkedin.com/in/mariocatuogno)
 * Website: [Mappr.it](http://mappr.it)
