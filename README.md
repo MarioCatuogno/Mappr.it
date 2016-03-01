@@ -24,10 +24,6 @@ The method used in this blog is *learning-by-doing* and it is targeted to people
 
 Below you will find some useful resources and [here](https://github.com/MarioCatuogno/Mappr.it/wiki) you can find the wiki page with all blog articles.
 
-
-****
-
-
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="96" />
 </p> 
@@ -42,10 +38,6 @@ Preview | Description
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning techniques depending on what problem to solve.
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | An infographic by Datacamp on key roles and positions in modern data science industry.
 
-
-****
-
-
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
 </p>
@@ -56,10 +48,6 @@ Title | Description
 [Data Science Central](http://www.datasciencecentral.com) | The online resource for data science practitioners.
 [GoDataDriven Blog](http://blog.godatadriven.com/index.html) | The blog of DataDriven Company.
 [The Open Source Master to DS](http://datasciencemasters.org) | The open source course to data science.
-
-
-****
-
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="96" /> 
@@ -77,10 +65,6 @@ Title | Descrpition
 [Problem Solving with Algorithm and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html) | A book written for people who wants to learn Python in a practical way.
 [SoPython](http://sopython.com) | The website of Stack Overflow Python community.
 [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) | This handcrafted guide exists to provide both novice and expert Python developers a best practice handbook.
-
-
-****
-
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="96" />
