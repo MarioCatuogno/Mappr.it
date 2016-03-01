@@ -33,6 +33,8 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 ## Infographic
 
+A collection of infographics about Data Science.
+
 Preview | Description
 :---: | ---
 [<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic by Datacamp on how to become data scientists in 8 easy steps.
@@ -49,6 +51,8 @@ Preview | Description
 
 ## Where to learn Data Science?
 
+Various resources to start studying Data Science.
+
 Title | Description
 --- | ---
 [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
@@ -61,6 +65,8 @@ Title | Description
 </p>
 
 ## Python Resources
+
+Various resources about Python language.
 
 Title | Descrpition
 --- | ---
@@ -81,6 +87,8 @@ Title | Descrpition
 
 ## R Resources
 
+Various resources about R language.
+
 Title | Descrpition
 --- | ---
 [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) | Tutorial created by Analytics Vidhya on basic data science with R.
@@ -89,6 +97,8 @@ Title | Descrpition
 [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) | Written by Emmanuel Paradis, gives a starting point for people newly interested in R.
 
 ## Wiki
+
+The Mappr.it wiki hosted on Github repository.
 
 | **Data Science** | **Python** | **R** |
 | :---: | :---: | :---: |
