@@ -90,10 +90,10 @@ Title | Descrpition
 
 ## Wiki
 
-| Data Science | Python | R |
+| **Data Science** | **Python** | **R** |
 | :---: | :---: | :---: |
 | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Data-Science">![Data Science](http://mappr.it/wp-content/uploads/2016/02/git_data_science.png)</a> | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](http://mappr.it/wp-content/uploads/2016/02/git_python.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](http://mappr.it/wp-content/uploads/2016/02/git_r.png) |                     
-| Statistics | Tutorials | Various Stuff |
+| **Statistics** | **Tutorials** | **Various Stuff** |
 | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](http://mappr.it/wp-content/uploads/2016/02/git_statistics.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Tutorials">![Tutorials](http://mappr.it/wp-content/uploads/2016/02/git_tutorials.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Various-Stuff">![Various Stuff](http://mappr.it/wp-content/uploads/2016/02/git_various.png) |
 
 ## Credits
