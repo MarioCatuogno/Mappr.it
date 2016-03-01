@@ -32,13 +32,13 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 Preview | Description
 :---: | ---
-[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" Action=thumbnail&Width=100&Height=100&algorithm=fill_proportional" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic by Datacamp on how to become data scientists in 8 easy steps.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist in a nice metroline map style.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist divided into various categories.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | A little cheat sheet on who the modern data scientist really is.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the two major programming languages used in data science (R and Python).
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning techniques depending on what problem to solve.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | An infographic by Datacamp on key roles and positions in modern data science industry.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic by Datacamp on how to become data scientists in 8 easy steps.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist in a nice metroline map style.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist divided into various categories.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | A little cheat sheet on who the modern data scientist really is.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the two major programming languages used in data science (R and Python).
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning techniques depending on what problem to solve.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" target="_blank" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | An infographic by Datacamp on key roles and positions in modern data science industry.
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
