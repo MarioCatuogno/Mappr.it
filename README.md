@@ -27,7 +27,7 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 ## Infographic
 
-<img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="50" align="bottom" /> A collection of infographics about Data Science.
+<img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="50" align="left" /> A collection of infographics about Data Science.
 
 Preview | Description
 :---: | ---
@@ -41,7 +41,7 @@ Preview | Description
 
 ## Where to learn Data Science?
 
-<img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="50" align="bottom" /> Various resources to start studying Data Science.
+<img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="50" align="left" /> Various resources to start studying Data Science.
 
 Title | Description
 --- | ---
@@ -52,7 +52,7 @@ Title | Description
 
 ## Python Resources
 
-<img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="50" align="bottom" /> Various resources about Python language.
+<img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="50" align="left" /> Various resources about Python language.
 
 Title | Descrpition
 --- | ---
@@ -69,7 +69,7 @@ Title | Descrpition
 
 ## R Resources
 
-<img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="50" align="bottom" /> Various resources about R language.
+<img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="50" align="left" /> Various resources about R language.
 
 Title | Descrpition
 --- | ---
