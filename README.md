@@ -25,6 +25,8 @@ The method used in this blog is *learning-by-doing* and it is targeted to people
 
 Below you will find some useful resources and [here](https://github.com/MarioCatuogno/Mappr.it/wiki) you can find the wiki page with the articles published on the blog.
 
+***
+
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="96" />
 </p> 
