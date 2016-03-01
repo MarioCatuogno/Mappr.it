@@ -32,13 +32,13 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 Preview | Description
 :---: | ---
-[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic on how to become data scientists in 8 steps.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | The skills of the data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the major programming languages used in data science.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="150" height="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | Roles and positions in data science industry.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic on how to become data scientists in 8 steps.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | The skills of the data scientist.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the major programming languages used in data science.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | Roles and positions in data science industry.
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
