@@ -31,7 +31,7 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 ## Infographic
 
 Preview | Description
------------- | -------------
+--- | ---
 [<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic on how to become data scientists in 8 steps.
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist.
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist.
@@ -46,6 +46,7 @@ Preview | Description
 ## Where to learn Data Science?
 
 Title | Descrpition
+--- | ---
 [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
 [Data Science Central](http://www.datasciencecentral.com) | The online resource for data science practitioners.
 [GoDataDriven Blog](http://blog.godatadriven.com/index.html) | The blog of DataDriven Company.
@@ -56,23 +57,27 @@ Title | Descrpition
 </p>
 ## Python Resources
 
-* [A Byte of Python](http://python.swaroopch.com)
-* [Automate Boring Stuff with Python](https://automatetheboringstuff.com)
-* [Getting started with Python](https://www.python.org/about/gettingstarted/)
-* [Google's Python Class](https://developers.google.com/edu/python/)
-* [Hands-on Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html)
-* [Instant Python](http://hetland.org/writing/instant-python.html)
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html)
-* [Problem Solving with Algorithm and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
-* [SoPython](http://sopython.com)
-* [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
+Title | Descrpition
+--- | ---
+[A Byte of Python](http://python.swaroopch.com) | A free book on programming using the Python language.
+[Automate Boring Stuff with Python](https://automatetheboringstuff.com) | This teaches how to code small, practical programs to automate tasks on their computer.
+[Getting started with Python](https://www.python.org/about/gettingstarted/) | A guide for beginners from the Python Software Foundation.
+[Google's Python Class](https://developers.google.com/edu/python/) | A free class for people with a little bit of programming experience who want to learn Python.
+[Hands-on Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) | A Python tutorial created by Dr. Andrew N. Harrington of Computer Science Department of Loyola University (Chicago).
+[Instant Python](http://hetland.org/writing/instant-python.html) | This is a minimal crash-course in the programming language Python.
+[Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html) | One of the most famous online course of Python, reached its 3rd edition.
+[Problem Solving with Algorithm and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html) | A book written for people who wants to learn Python in a practical way.
+[SoPython](http://sopython.com) | The website of Stack Overflow Python community.
+[The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) | This handcrafted guide exists to provide both novice and expert Python developers a best practice handbook.
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="96" />
 </p>
 ## R Resources 
 
-* [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/)
-* [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
-* [Cookbook for R](http://www.cookbook-r.com)
-* [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
+Title | Descrpition
+--- | ---
+[A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) | Tutorial created by Analytics Vidhya on basic data science with R.
+[An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf) | Written by the R core team, it’s a must read for everyone who wants to learn this language.
+[Cookbook for R](http://www.cookbook-r.com) | The goal of this book is to provide solutions to common tasks and problems in analyzing data.
+[R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) | Written by Emmanuel Paradis, gives a starting point for people newly interested in R.
