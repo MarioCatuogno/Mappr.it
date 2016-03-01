@@ -32,13 +32,13 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 Preview | Description
 :---: | ---
-[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic on how to become data scientists in 8 steps.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | The skills of the data scientist.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the major programming languages used in data science.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning.
-[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | Roles and positions in data science industry.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic by Datacamp on how to become data scientists in 8 easy steps.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Road-to-Data-Scientist.png) | The perfect curriculum of a data scientist in a nice metroline map style.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg) | The basic knowledge of a data scientist divided into various categories.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Modern-Data-Scientist.png) | A little cheat sheet on who the modern data scientist really is.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/R-vs-Python.png) | Pros and cons of the two major programming languages used in data science (R and Python).
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning techniques depending on what problem to solve.
+[<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="150" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | An infographic by Datacamp on key roles and positions in modern data science industry.
 
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
@@ -46,7 +46,7 @@ Preview | Description
 ## Where to learn Data Science?
 
 Title | Description
-:---: | ---
+--- | ---
 [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
 [Data Science Central](http://www.datasciencecentral.com) | The online resource for data science practitioners.
 [GoDataDriven Blog](http://blog.godatadriven.com/index.html) | The blog of DataDriven Company.
@@ -58,7 +58,7 @@ Title | Description
 ## Python Resources
 
 Title | Descrpition
-:---: | ---
+--- | ---
 [A Byte of Python](http://python.swaroopch.com) | A free book on programming using the Python language.
 [Automate Boring Stuff with Python](https://automatetheboringstuff.com) | This teaches how to code small, practical programs to automate tasks on their computer.
 [Getting started with Python](https://www.python.org/about/gettingstarted/) | A guide for beginners from the Python Software Foundation.
@@ -76,7 +76,7 @@ Title | Descrpition
 ## R Resources 
 
 Title | Descrpition
-:---: | ---
+--- | ---
 [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) | Tutorial created by Analytics Vidhya on basic data science with R.
 [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf) | Written by the R core team, it’s a must read for everyone who wants to learn this language.
 [Cookbook for R](http://www.cookbook-r.com) | The goal of this book is to provide solutions to common tasks and problems in analyzing data.
