@@ -60,10 +60,8 @@ Title | Description
 
 ## Python Resources
 
-<p align="left">
-  <img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="92" align="middle" /> 
-</p>
-Various resources about Python language.
+
+<img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="92" align="middle" /> Various resources about Python language.
 
 Title | Descrpition
 --- | ---
