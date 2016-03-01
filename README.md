@@ -13,6 +13,9 @@
 * [Where to learn Data Science?](#where-to-learn-data-science)
 * [Python Resources](#python-resources)
 * [R Resources](#r-resources)
+* [Wiki](#wiki)
+* [Credits](#credits)
+* [Contact Info](#contact-info)
 
 ## Introduction
 
@@ -27,7 +30,9 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="96" />
 </p> 
+
 ## Infographic
+
 Preview | Description
 :---: | ---
 [<img src="http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/How-to-become-a-Data-Scientist.jpg) | An infographic by Datacamp on how to become data scientists in 8 easy steps.
@@ -41,7 +46,9 @@ Preview | Description
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
 </p>
+
 ## Where to learn Data Science?
+
 Title | Description
 --- | ---
 [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
@@ -52,7 +59,9 @@ Title | Description
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="96" /> 
 </p>
+
 ## Python Resources
+
 Title | Descrpition
 --- | ---
 [A Byte of Python](http://python.swaroopch.com) | A free book on programming using the Python language.
@@ -69,10 +78,31 @@ Title | Descrpition
 <p align="center">
   <img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="96" />
 </p>
-## R Resources 
+
+## R Resources
+
 Title | Descrpition
 --- | ---
 [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/) | Tutorial created by Analytics Vidhya on basic data science with R.
 [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf) | Written by the R core team, it’s a must read for everyone who wants to learn this language.
 [Cookbook for R](http://www.cookbook-r.com) | The goal of this book is to provide solutions to common tasks and problems in analyzing data.
 [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) | Written by Emmanuel Paradis, gives a starting point for people newly interested in R.
+
+## Wiki
+
+[[Data Science]] | [[Python]] | [[R]]
+:---: | :---: | :---: 
+| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Data-Science">![Data Science](http://mappr.it/wp-content/uploads/2016/02/git_data_science.png)</a> | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](http://mappr.it/wp-content/uploads/2016/02/git_python.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](http://mappr.it/wp-content/uploads/2016/02/git_r.png)                     
+[[Statistics]] | [[Tutorials]] | [[Various Stuff]] |
+| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](http://mappr.it/wp-content/uploads/2016/02/git_statistics.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Tutorials">![Tutorials](http://mappr.it/wp-content/uploads/2016/02/git_tutorials.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Various-Stuff">![Various Stuff](http://mappr.it/wp-content/uploads/2016/02/git_various.png) |
+
+## Credits
+
+* [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) by Paomedia
+
+## Contact Info
+
+* Email: [catuogno.mario88@gmail.com](mailto:catuogno.mario88@gmail.com)
+* Github: [MarioCatuogno](https://github.com/MarioCatuogno)
+* LinkedIn: [mariocatuogno](https://it.linkedin.com/in/mariocatuogno)
+* Website: [Mappr.it](http://mappr.it)
