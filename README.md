@@ -1,3 +1,8 @@
+<br/>
+<p align="center">
+  <img src="http://mappr.it/wp-content/uploads/2016/02/favicon.png" width="210" />
+</p>
+
 # Mappr.it
 *A data science blog for beginners.*
 
@@ -19,8 +24,11 @@ The method used in this blog is *learning-by-doing* and it is targeted to people
 
 Below you will find some useful resources and [here](https://github.com/MarioCatuogno/Mappr.it/wiki) you can find the wiki page with all blog articles.
 
+<p align="center">
+  <img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="96" />
+</p> 
+
 ## Infographic
-<img src="http://mappr.it/wp-content/uploads/2016/02/file-picture.png" width="50" /> 
 
 Preview | Description
 ------------ | -------------
@@ -32,16 +40,21 @@ Preview | Description
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Statistics-vs-Machine-Learning.png) | What to choose between statistics and machine learning.
 [<img src="http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png" width="100" height="100" />](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Industry.png) | Roles and positions in data science industry.
 
+<p align="center">
+  <img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="96" /> 
+</p>
 ## Where to learn Data Science?
-<img src="http://mappr.it/wp-content/uploads/2016/02/device-laptop.png" width="50" /> 
 
-* [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience)
-* [Data Science Central](http://www.datasciencecentral.com)
-* [GoDataDriven Blog](http://blog.godatadriven.com/index.html)
-* [The Open Source Master to DS](http://datasciencemasters.org)
+Title | Descrpition
+[Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
+[Data Science Central](http://www.datasciencecentral.com) | The online resource for data science practitioners.
+[GoDataDriven Blog](http://blog.godatadriven.com/index.html) | The blog of DataDriven Company.
+[The Open Source Master to DS](http://datasciencemasters.org) | The open source course to data science.
 
+<p align="center">
+  <img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="96" /> 
+</p>
 ## Python Resources
-<img src="http://mappr.it/wp-content/uploads/2016/02/logo_python.png" width="50" /> 
 
 * [A Byte of Python](http://python.swaroopch.com)
 * [Automate Boring Stuff with Python](https://automatetheboringstuff.com)
@@ -54,8 +67,10 @@ Preview | Description
 * [SoPython](http://sopython.com)
 * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
 
-## R Resources
-<img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="50" /> 
+<p align="center">
+  <img src="http://mappr.it/wp-content/uploads/2016/02/logo_r.png" width="96" />
+</p>
+## R Resources 
 
 * [A Complete tutorial to learn Data Science in R from Scratch](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/)
 * [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
