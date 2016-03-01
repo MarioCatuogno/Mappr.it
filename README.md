@@ -90,6 +90,7 @@ The Mappr.it wiki hosted on Github repository.
 
 ## Credits
 
+* [Independent Publisher](http://independentpublisher.me) by Raam Dev
 * [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) by Paomedia
 
 ## Contact Info
