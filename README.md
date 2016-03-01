@@ -92,6 +92,7 @@ The Mappr.it wiki hosted on Github repository.
 
 * [Independent Publisher](http://independentpublisher.me) by Raam Dev
 * [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) by Paomedia
+* [Torple Mini Font](http://www.denisechandler.com) by Denise Chandler
 
 ## Contact Info
 
