@@ -48,7 +48,7 @@ Title | Description
 [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience) | An open source github repository to learn and apply towards solving real world problems.
 [Data Science Central](http://www.datasciencecentral.com) | The online resource for data science practitioners.
 [GoDataDriven Blog](http://blog.godatadriven.com/index.html) | The blog of DataDriven Company.
-[The Open Source Master to DS](http://datasciencemasters.org) | The open source course to data science.
+[The Open Source Master to Data Science](http://datasciencemasters.org) | The open source course to data science.
 
 ## Python Resources
 
