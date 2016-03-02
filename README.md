@@ -61,6 +61,7 @@ Title | Descrpition
 [Getting started with Python](https://www.python.org/about/gettingstarted/) | A guide for beginners from the Python Software Foundation.
 [Google's Python Class](https://developers.google.com/edu/python/) | A free class for people with a little bit of programming experience who want to learn Python.
 [Hands-on Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) | A Python tutorial created by Dr. Andrew N. Harrington of Computer Science Department of Loyola University (Chicago).
+[How to think like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/index.html) | A basic book to start programming in Python.
 [Instant Python](http://hetland.org/writing/instant-python.html) | This is a minimal crash-course in the programming language Python.
 [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html) | One of the most famous online course of Python, reached its 3rd edition.
 [Problem Solving with Algorithm and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html) | A book written for people who wants to learn Python in a practical way.
