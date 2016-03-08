@@ -80,6 +80,7 @@ Title | Descrpition
 [Cookbook for R](http://www.cookbook-r.com) | The goal of this book is to provide solutions to common tasks and problems in analyzing data.
 [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) | A series of R lessons written by Software Carpentry.
 [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) | Written by Emmanuel Paradis, gives a starting point for people newly interested in R.
+[R for reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) | A series of R lessons to teach novice programmers to write modular code using R for data analysis written by Software Carpentry.
 
 ## Wiki
 
