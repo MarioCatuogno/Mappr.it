@@ -13,6 +13,7 @@
 * [Where to learn Data Science?](#where-to-learn-data-science)
 * [Python Resources](#python-resources)
 * [R Resources](#r-resources)
+* [Big Data and Hadoop](#big-data-and-hadoop)
 * [Wiki](#wiki)
 * [Credits](#credits)
 * [Contact Info](#contact-info)
@@ -81,6 +82,14 @@ Title | Descrpition
 [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) | A series of R lessons written by Software Carpentry.
 [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) | Written by Emmanuel Paradis, gives a starting point for people newly interested in R.
 [R for reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) | A series of R lessons to teach novice programmers to write modular code using R for data analysis written by Software Carpentry.
+
+## Big Data and Hadoop
+
+<img src="http://mappr.it/wp-content/uploads/2016/02/layers.png" width="50" align="middle" /> Various resources about Big Data and Hadoop.
+
+Title | Descrpition
+--- | ---
+[Understanding Big Data](https://www.ibm.com/developerworks/vn/library/contest/dw-freebooks/Tim_Hieu_Big_Data/Understanding_BigData.PDF) | PDF written by IBM about analytics for enterprise class Hadoop and streaming data.
 
 ## Wiki
 
