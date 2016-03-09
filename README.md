@@ -85,7 +85,7 @@ Title | Descrpition
 
 ## Big Data and Hadoop
 
-<img src="http://mappr.it/wp-content/uploads/2016/02/layers.png" width="50" align="middle" /> Various resources about Big Data and Hadoop.
+<img src="http://mappr.it/wp-content/uploads/2016/02/logo_hadoop2.png" width="50" align="middle" /> Various resources about Big Data and Hadoop.
 
 Title | Descrpition
 --- | ---
