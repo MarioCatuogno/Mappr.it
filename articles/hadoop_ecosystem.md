@@ -5,7 +5,7 @@ IMG=HADOOP (Mappr.it style)
 ## Table of contents
 
 - [The creation of Hadoop](#the-creation-of-hadoop)
-- [What is Hadoop?](#what-is-hadoop-?)
+- [What is Hadoop?](#what-is-hadoop)
 - [The Hadoop ecosystem](#the-hadoop-ecosystem)
 
 ## The creation of Hadoop

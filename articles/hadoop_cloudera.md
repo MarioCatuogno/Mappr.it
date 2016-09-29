@@ -4,7 +4,7 @@
 IMG=HADOOP (Mappr.it style)
 ## Table of contents
 
-- [What is Cloudera?](#what-is-cloudera-?)
+- [What is Cloudera?](#what-is-cloudera)
 - [Cloudera Manager](#cloudera-manager)
 
 
