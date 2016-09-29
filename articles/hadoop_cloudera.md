@@ -52,11 +52,3 @@ Data lineage exploration | :heavy_multiplication_x: | :heavy_check_mark:
 Data encryption with KMS | :heavy_multiplication_x: | :heavy_check_mark:
 File browsing, searching and disk quota management | :heavy_multiplication_x: | :heavy_check_mark:
 HBase, MapReduce, Impala and YARN usage reports | :heavy_multiplication_x: | :heavy_check_mark:
-
-
-
-
-  ``` r
-  install.packages("dplyr")
-  install.packages("ggplot2")
-  ```

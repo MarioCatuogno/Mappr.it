@@ -7,6 +7,7 @@ IMG=HADOOP (Mappr.it style)
 - [The creation of Hadoop](#the-creation-of-hadoop)
 - [What is Hadoop?](#what-is-hadoop)
 - [The Hadoop ecosystem](#the-hadoop-ecosystem)
+- [Hadoop use cases](#hadoop-use-cases)
 
 ## The creation of Hadoop
 
@@ -58,53 +59,34 @@ Hadoop is nowadays used in many industries (*organization in financial world, he
 
 IMG=ORGANIZATION WHICH USES HADOOP
 
-## 2. Cloudera
+Some of the most important projects of the Hadoop ecosystem are:
 
-**Cloudera** is the leader in the Apache Hadoop-based software and services. It was founded in 2008 by leading experts on Hadoop and nowadays has global operations spanning over 20 countries. Cloudera provides support, consulting, training and certification for Hadoop users.
-
-One of the main products of Cloudera is **CDH** (Cloudera's Distribution, including Apache Hadoop). It is "*a 100% open source and free to download, enterprise-ready distribution of Hadoop and related projects*".
-
-IMG=CDH
-
-The key projects integrated in this distribution are:
-
-Component | Description
+Project | What does it do?
 --- | ---
-[__Apache Hadoop (Core)__](http://www.cloudera.com/products/apache-hadoop/hdfs-mapreduce-yarn.html) | reliable, scalable, distributed storage and computing
-[__Apache Accumulo__](http://www.cloudera.com/products/apache-hadoop/apache-accumulo.html) | a secure, distributed data store to serve performance-intensive Big Data applications
-[__Apache Flume__](http://www.cloudera.com/products/apache-hadoop/apache-flume.html) | for collecting and aggregating log and event data and real-time streaming into Hadoop
-[__Apache HBase__](http://www.cloudera.com/products/apache-hadoop/apache-hbase.html) | scalable record and table storage, with real-time read/write access
-[__Apache Hive__](http://www.cloudera.com/products/apache-hadoop/apache-hive.html) | familiar SQL framework with metadata repository for batch processing of Hadoop data
-[__HUE__](http://www.cloudera.com/products/apache-hadoop/hue.html) | the extensible web GUI that makes Hadoop users more productive
-[__Apache Impala__](http://www.cloudera.com/products/apache-hadoop/impala.html) | the analytic database native to Hadoop for low-latency queries under multi-user workloads
-[__Apache Kafka__](http://www.cloudera.com/products/apache-hadoop/apache-kafka.html) | the backbone for distributed real-time processing of Hadoop data
-[__Apache Pig__](http://www.cloudera.com/products/apache-hadoop/apache-pig.html) | high-level data flow language for processing data stored in Hadoop
-[__Apache Sentry__](http://www.cloudera.com/products/apache-hadoop/apache-sentry.html) | fine-grained, role-based authorization for Impala and Hive
-[__Cloudera Search__](http://www.cloudera.com/products/apache-hadoop/apache-solr.html) | powered by Solr to make Hadoop accessible to everyone via integrated full-text search
-[__Apache Spark__](http://www.cloudera.com/products/apache-hadoop/apache-spark.html) | the open standard for in-memory batch and real-time processing for advanced analytics
-[__Apache Sqoop__](http://www.cloudera.com/products/apache-hadoop/apache-sqoop.html) | data transport engine for integrating Hadoop with relational databases
+[__Spark__](http://spark.apache.org) | In-memory and streaming processing framework (*faster and more efficient than MapReduce*)
+[__HBase__](http://hbase.apache.org) | NoSQL database built on HDFS
+[__Hive__](https://hive.apache.org) | SQL processing engine designed for batch workloads
+[__Impala__](http://impala.apache.org) | SQL query engine designed for BI workloads
+[__Parquet__](https://parquet.apache.org) | Very efficient columnar data storage format
+[__Sqoop__](http://sqoop.apache.org) | Data movement to/from RDBMS
+[__Flume__](https://flume.apache.org) | Streaming data ingestion
+[__Kafka__](http://kafka.apache.org) | Streaming data ingestion
+[__Solr__](https://lucene.apache.org/solr/) | Powerful text search functionality
+[__Hue__](http://gethue.com) | Web-based user interface for Hadoop
+[__Sentry__](http://sentry.apache.org) | Authorization tool, providing security for Hadoop
 
-To manage the Hadoop cluster there's the software [__Cloudera Manager__](http://www.cloudera.com/products/cloudera-manager.html). It has an automated wizard to quickly deploy cluster, no matter what the scale or the deployment environment; it ensure consistency as you move from testing to production, or across environments with portable cluster configuration templates. It is part of the **Cloudera Express** and **Cloudera Enterprise**. The differences between the two products are the following:
+The Hadoop ecosystem is growing every month and new features are frequently added such as processing frameworks, support for new file types and performance enhancements.
 
-Feature | Cloudera Express | Cloudera Enterprise
---- | --- | ---
-Number of hosts supported | Unlimited | Unlimited
-High availability support | :heavy_check_mark: | :heavy_check_mark:
-HBase co-processor support | :heavy_check_mark: | :heavy_check_mark:
-Configuration history and rollbacks | :heavy_multiplication_x: | :heavy_check_mark:
-Rolling updates | :heavy_multiplication_x: | :heavy_check_mark:
-Automated backup and disaster recovery | :heavy_multiplication_x: | :heavy_check_mark:
-Event auditing | :heavy_multiplication_x: | :heavy_check_mark:
-Metadata tagging capabilities | :heavy_multiplication_x: | :heavy_check_mark:
-Data lineage exploration | :heavy_multiplication_x: | :heavy_check_mark:
-Data encryption with KMS | :heavy_multiplication_x: | :heavy_check_mark:
-File browsing, searching and disk quota management | :heavy_multiplication_x: | :heavy_check_mark:
-HBase, MapReduce, Impala and YARN usage reports | :heavy_multiplication_x: | :heavy_check_mark:
+## Hadoop use cases
 
+#### Financial Services
+* __JP Morgan Chase__: fraud detection, anti-money laundering and self-service applications. Now stores and processes data that was previously discarded
+* __MasterCard__: first Certified Payment Card Industry (*PCI*) data security standards Hadoop solution, in conjunction with Cloudera Manager and Cloudera Navigator
+* __Western Union__: cross border, consumer-to-consumer money transfers and bill payments
 
+#### Insurance
+* __Allstate__: fraud detection, predictive analytics and reporting. Leveraging Hadoop to compliment and not replace the existing system
+* __RelayHealth__: processes healthcare provider-to-payer interaction, creating analytics platforms on Hadoop
+* __Markerstudy__: fraud detection and prevention at point-of-sale, uses Hadoop to provide the most appropriate price and product to every customer
 
-
-  ``` r
-  install.packages("dplyr")
-  install.packages("ggplot2")
-  ```
+#### Telecommunications
