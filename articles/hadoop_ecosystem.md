@@ -1,7 +1,8 @@
-# Hadoop ecosystem
+# The Hadoop ecosystem
 *A beginners guide to the Hadoop ecosystem*
 
-IMG=HADOOP (Mappr.it style)
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_ecosystem.png" align="middle"/>
+
 ## Table of contents
 
 - [The creation of Hadoop](#the-creation-of-hadoop)
@@ -16,6 +17,8 @@ Traditionally, computation has been processor-bound with relatively small amount
 There were some challenges with distributed systems, especially related to programming complexity (*keeping data and processes in sync*), finite bandwidth and partial failures. Another problem with distributed systems is the **data bottleneck**: traditionally data is stored in a central location, with data copied to processors at runtime, which is fine for limited amounts of data but it's not good for modern systems with terabytes or petabytes of data.
 
 This **data bottleneck** problem was faced by **Google** in the late 1990s. The goal was to indexing the entire web but this required massive amounts of storage, so a new approach was necessary to process such large amounts of data. The solution found produced a paper called [**GFS**](https://en.wikipedia.org/wiki/Google_File_System) (*Google File System*), released in 2003, followed by another paper called [**MapReduce**](https://en.wikipedia.org/wiki/MapReduce), released in 2004.
+
+Nowadays more data is coming, through IoT, sensor data and streaming; more data means bigger question and better answers. Hadoop can easily scales to store and handle all of your data, especially because it is **cost-effective**: typically providing a significant cost-per-terabyte saving over traditional legacy system. And the most important thing: "*Hadoop integrates with the existing datacenter components*", letting you to exploit data you have been throwing away.
 
 ## What is Hadoop?
 
@@ -90,3 +93,9 @@ The Hadoop ecosystem is growing every month and new features are frequently adde
 * __Markerstudy__: fraud detection and prevention at point-of-sale, uses Hadoop to provide the most appropriate price and product to every customer
 
 #### Telecommunications
+* __Telkomsel__: data discovery and analytics, ETL operations from their data
+* __Nokia__: improve user experiences with phones and location services, model traffic using advanced analytics and 3D mapping
+* __SFR__: 360-degree customer view spanning devices and data sources, offload data ingest, processing and exploration from the DWH
+
+#### Healthcare
+* __Children's Healthcare of Atlanta__: analysis of sensor data, started with a very small cluster (6 nodes, built from scavenged PCs)
