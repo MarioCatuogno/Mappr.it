@@ -41,7 +41,7 @@ The **Core Hadoop** is composed by a **file system** and a **processing framewor
 
 Hadoop has a large and growing ecosystem that extend basic capabilities. These are some of the most common projects of Hadoop found in a **Cloudera** distribution:
 
-IMG=HADOOP ECOSYSTEM
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_ecosystem.png" align="middle" />
 
 Tools built around Hadoop can be configured/extended to handle many different tasks, such as the following ones.
 
