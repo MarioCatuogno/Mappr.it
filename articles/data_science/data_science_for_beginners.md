@@ -10,7 +10,6 @@
 - [Big Data and Data Science](#big-data-and-data-science)
 - [Who is a Data Scientist?](#who-is-a-data-scientist)
 - [Useful readings](#useful-readings)
-- [Hadoop use cases](#hadoop-use-cases)
 
 ## Big Data and Data Science
 
