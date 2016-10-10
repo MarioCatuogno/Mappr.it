@@ -1,7 +1,9 @@
 # The Hadoop ecosystem
 *A beginners guide to the Hadoop ecosystem*
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_ecosystem.png" align="middle"/>
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_ecosystem.png" />
+</p>
 
 ## Table of contents
 
@@ -41,7 +43,9 @@ The **Core Hadoop** is composed by a **file system** and a **processing framewor
 
 Hadoop has a large and growing ecosystem that extend basic capabilities. These are some of the most common projects of Hadoop found in a **Cloudera** distribution:
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_ecosystem.png" align="middle" />
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_ecosystem.png" />
+</p>
 
 Tools built around Hadoop can be configured/extended to handle many different tasks, such as the following ones.
 
@@ -56,11 +60,15 @@ Machine learning | s
 
 Hadoop works also with a lot of commercial products as well, for example in the BI/Business analytics sector, or the ETL part of data processing or databases. Some of them are:
 
-IMG=HADOOP COMMERCIAL PRODUCTS
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_products.png" />
+</p>
 
 Hadoop is nowadays used in many industries (*organization in financial world, healthcare, manufacturing, non-profit, etc.*), some organization that use Hadoop are:
 
-IMG=ORGANIZATION WHICH USES HADOOP
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_companies.png" />
+</p>
 
 Some of the most important projects of the Hadoop ecosystem are:
 
