@@ -1,4 +1,4 @@
-# Hadoop Cloudera
+# Cloudera Hadoop
 *A beginners guide to the Cloudera Hadoop distribution*
 
 IMG=HADOOP (Mappr.it style)
