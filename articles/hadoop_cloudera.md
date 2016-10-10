@@ -1,7 +1,10 @@
 # Cloudera Hadoop
 *A beginners guide to the Cloudera Hadoop distribution*
 
-IMG=HADOOP (Mappr.it style)
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_cloudera.png" />
+</p>
+
 ## Table of contents
 
 - [What is Cloudera?](#what-is-cloudera)
