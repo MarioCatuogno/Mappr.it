@@ -26,7 +26,7 @@ But who exactly is a data scientists and how it operates?
 
 ## Who is a Data Scientist?
 
-We can describe his work through three different macro-skills (see [__here__](http://mappr.it/wp-content/uploads/2016/02/Data-Science-Skillset.jpg)):
+We can describe his work through three different macro-skills (see [__here__](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_datascience_skillset.jpg)):
 
 * __Hacking skills__: are necessary for working with massive amount of electronic data that must be acquired, cleaned and manipulated.
 * __Math and Statistics knowledge__: allows a data scientist to choose appropriate methods and tools in order to extract insight from data.
