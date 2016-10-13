@@ -1,7 +1,9 @@
-# SQL architectures
-*A beginners guide to RDBMS*
+# DB architectures
+*A beginners guide to Databases*
 
-IMG:RDBMS
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_db_architectures.png" />
+</p>
 
 ## Table of contents
 
@@ -63,4 +65,7 @@ A **data model** describes how data is represented and accessed. It also determi
 
 #### Conceptual data model
 
-The purpose is to clearly describe the concepts relevant to a domain, the relationship between concepts and information associated with them.
+The purpose is to clearly describe the concepts relevant to a domain, the relationship between concepts and information associated with them. The **Entity Relationship** (**ER**) model describe a problem as:
+
+* a collection of __entities__ described by __attributes__
+* __relationship__ among entities
