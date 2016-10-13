@@ -7,10 +7,10 @@
 
 ## Table of contents
 
-- [DBMS](#dbms)
-    - [What is a database](#what-is-a-database)
-    - [RDBMS](#rdbms)
-    - [Conceptual data model](#conceptual-data-model)
+- [1. DBMS](#dbms)
+    - [1.1 What is a database](#what-is-a-database)
+    - [1.2 RDBMS](#rdbms)
+    - [1.3 Conceptual data model](#conceptual-data-model)
 
 ## DBMS
 

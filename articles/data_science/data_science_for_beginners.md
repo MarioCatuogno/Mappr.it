@@ -7,9 +7,9 @@
 
 ## Table of contents
 
-- [Big Data and Data Science](#big-data-and-data-science)
-- [Who is a Data Scientist?](#who-is-a-data-scientist)
-- [Useful readings](#useful-readings)
+- [1. Big Data and Data Science](#big-data-and-data-science)
+- [2. Who is a Data Scientist?](#who-is-a-data-scientist)
+- [3. Useful readings](#useful-readings)
 
 ## Big Data and Data Science
 

@@ -5,7 +5,7 @@ IMG:APACHE SQOOP
 
 ## Table of contents
 
-- [What is Sqoop?](#what-is-sqoop)
+- [1. What is Sqoop?](#what-is-sqoop)
 
 ## What is Sqoop?
 

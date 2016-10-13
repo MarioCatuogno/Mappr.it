@@ -7,10 +7,14 @@
 
 ## Table of contents
 
-- [The creation of Hadoop](#the-creation-of-hadoop)
-- [What is Hadoop?](#what-is-hadoop)
-- [The Hadoop ecosystem](#the-hadoop-ecosystem)
-- [Hadoop use cases](#hadoop-use-cases)
+- [1. The creation of Hadoop](#the-creation-of-hadoop)
+- [2. What is Hadoop?](#what-is-hadoop)
+- [3. The Hadoop ecosystem](#the-hadoop-ecosystem)
+- [4. Hadoop use cases](#hadoop-use-cases)
+    - [4.1 Financial Services](#financial-services)
+    - [4.2 Insurance](#insurance)
+    - [4.3 Telecommunications](#telecommunications)
+    - [4.4 Healthcare](#healthcare)
 
 ## The creation of Hadoop
 

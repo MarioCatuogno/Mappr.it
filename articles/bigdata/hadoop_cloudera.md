@@ -7,8 +7,8 @@
 
 ## Table of contents
 
-- [What is Cloudera?](#what-is-cloudera)
-- [Cloudera Manager](#cloudera-manager)
+- [1. What is Cloudera?](#what-is-cloudera)
+- [2. Cloudera Manager](#cloudera-manager)
 
 
 ## What is Cloudera?
