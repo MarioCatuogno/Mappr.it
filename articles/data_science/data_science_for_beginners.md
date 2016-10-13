@@ -1,5 +1,5 @@
 # Data Science for beginners
-*A beginners guide to the Hadoop ecosystem*
+*What is Data Science?*
 
 <p align="middle">
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_datascience_beginners.png" />

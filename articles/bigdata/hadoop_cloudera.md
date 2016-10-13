@@ -11,7 +11,7 @@
 - [Cloudera Manager](#cloudera-manager)
 
 
-## 2. What is Cloudera?
+## What is Cloudera?
 
 **Cloudera** is the leader in the Apache Hadoop-based software and services. It was founded in 2008 by leading experts on Hadoop and nowadays has global operations spanning over 20 countries. Cloudera provides support, consulting, training and certification for Hadoop users.
 
