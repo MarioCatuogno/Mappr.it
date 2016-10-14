@@ -147,10 +147,14 @@ There are some issues concerning conceptual design:
 
 * __use of entities vs attributes__: How much important is to store data as a separate entity? The right POV depends on the requirements, for example:
 
-IMG:ENTITIES_VS_ATTRIBUTES
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model5.png" />
+</p>
 
 * __binary vs n-ary relationship__: It is better to decompose n-ary relationships into binary one, because they are easier to understand and design, for example:
 
-IMG:BINARY_VS_NARY
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model6.png" />
+</p>
 
 ## Logical Data Model
