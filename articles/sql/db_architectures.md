@@ -14,6 +14,7 @@
     - [2.1 Relationships among entities](#relationships-among-entities)
     - [2.2 Issues of conceptual design](#issues-of-conceptual-design)
 - [3. Logical Data Model](#logical-data-model)
+    - [3.1 Normalization](#normalization)
 
 ## DBMS
 
@@ -49,11 +50,7 @@ DBMS is a system software for creating and managing databases. It provides users
 
 A specific kind of DBMS are the **Relational Database Management System**, because they have:
 
-* __Built-in multilevel integrity__:
-    * at __field level__ to ensure data accuracy,
-    * at __table level__ to ensure records are not duplicated,
-    * at __relationship level__ to ensure the consistency of data,
-    * at __business level__ to ensure data is accurate in terms of business rules
+* __Built-in multilevel integrity__
 * __Guaranteed data consistency and accuracy__
 * __Logical and physical data independence__
 * __Easy data management and retrieval__
@@ -158,3 +155,64 @@ There are some issues concerning conceptual design:
 </p>
 
 ## Logical Data Model
+
+A **logical data model** describes the shape, size and the necessary systems for a DB, with the definition of **TABLES**, **RELATIONSHIPS** and **INTEGRITY RULES**. It's like a blueprint.
+
+A **relational database** can be described as a "*set of relations in which data is stored, that are perceived by the user as tables*".
+
+A **RELATION** is a set of rows (**TUPLES/RECORDS**) and attributes (**FIELDS**).
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model7.png" />
+</p>
+
+Switching from a conceptual data model to a logical one, takes some transformations:
+
+* __Derivation rules for entities__
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model8.png" />
+</p>
+
+Each entity becomes a **TABLE**, each attribute a **FIELD** and each primary key a **RELATIONAL PK**.
+
+* __Derivation rules for 1:N relationship__
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model9.png" />
+</p>
+
+For each **1:N** relationship you can add additional fields in the table for the entity which participate with N instances, that is the PK of the related entity participating with 1. The additional field is called **FOREIGN KEY** and is reported with **#**.
+
+* __Derivation rules for N:M relationship__
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_er_model10.png" />
+</p>
+
+For each **N:M** binary relationship you create additional table where fields the PK of the related entities and the relationship attributes. The added PK are **FOREIGN KEYS**.
+
+**KEYS** are very important because each record in a table is precisely identified, they also help establish and enforce various types of integrity. They are used to establish **TABLE RELATIONSHIPS** and surf through data.
+
+#### Normalization
+
+**Normalization** is the process of refining **TABLE STRUCTURES** to store data efficiently, with:
+
+* no redundancy
+* enforcement of referential integrity
+* models free from update, insertion and deletion anomalies
+
+In a **De-normalized** model there is redundancy of data, tables can describe 2 or more subjects, tables can contain calculated fields and there are multi-valued or composite attributes. A **Normalized** model stores different data in separate logical tables and uses additional **SURROGATE KEYS** to uniquely identify rows, if needed. In this model, each field:
+
+* is independently updatable
+* identifies a specific characteristic of the table's subject
+* has single values
+* each row should be identified by a unique attribute (PK)
+
+There are also **INTEGRITY CONSTRAINTS** which ensure the **built-in multilevel integrity**:
+* at __field level__ to ensure data accuracy,
+* at __table level__ to ensure records are not duplicated,
+* at __relationship level__ to ensure the consistency of data,
+* at __business level__ to ensure data is accurate in terms of business rules
+
+This happens thanks to **IMPLICIT**/**EXPLICIT** integrity constraints expressed in the logical model. All these constraints will be implemented in the physical database. 
