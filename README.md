@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <img src="http://mappr.it/wp-content/uploads/2016/02/favicon.png" width="210" />
+  <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/favicon.png" width="210" />
 </p>
 
 # Mappr.it
