@@ -16,6 +16,7 @@
     - [5.2 Insurance](#insurance)
     - [5.3 Telecommunications](#telecommunications)
     - [5.4 Healthcare](#healthcare)
+- [6. Useful readings](#useful-readings)
 
 ## The creation of Hadoop
 
@@ -123,3 +124,8 @@ The following is a list of other tools and technologies that are important to un
 
 #### Healthcare
 * __Children's Healthcare of Atlanta__: analysis of sensor data, started with a very small cluster (6 nodes, built from scavenged PCs)
+
+## Useful readings
+* [__Cloudera Hadoop Ecosystem__](http://www.cloudera.com/training/library/hadoop-ecosystem.html) - A collection of guides on Hadoop ecosystem by Cloudera
+* [__Hadoop Application Architectures__](https://www.safaribooksonline.com/library/view/hadoop-application-architectures/9781491910313/) - A book on architecting end-to-end data management solutions with Apache Hadoop
+* [__Hadoop: The Definitive Guide__](https://www.safaribooksonline.com/library/view/hadoop-the-definitive/9781491901687/) - This book is ideal for programmers looking to analyze datasets of any size, and for administrators who want to set up and run Hadoop clusters
