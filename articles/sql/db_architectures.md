@@ -215,4 +215,4 @@ There are also **INTEGRITY CONSTRAINTS** which ensure the **built-in multilevel 
 * at __relationship level__ to ensure the consistency of data,
 * at __business level__ to ensure data is accurate in terms of business rules
 
-This happens thanks to **IMPLICIT**/**EXPLICIT** integrity constraints expressed in the logical model. All these constraints will be implemented in the physical database. 
+This happens thanks to **IMPLICIT**/**EXPLICIT** integrity constraints expressed in the logical model. All these constraints will be implemented in the physical database.

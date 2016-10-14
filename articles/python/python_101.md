@@ -1,5 +1,5 @@
 # Python 101 : Introduction
-*An introduction to Python.*
+*An introduction to Python*
 
 ## Table of content
 

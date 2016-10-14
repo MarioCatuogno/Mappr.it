@@ -4,7 +4,7 @@
 </p>
 
 # Mappr.it
-*A data science blog for beginners.*
+*A data science blog for beginners*
 
 ## Table of contents
 
