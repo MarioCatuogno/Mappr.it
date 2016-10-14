@@ -10,11 +10,12 @@
 - [1. The creation of Hadoop](#the-creation-of-hadoop)
 - [2. What is Hadoop?](#what-is-hadoop)
 - [3. The Hadoop ecosystem](#the-hadoop-ecosystem)
-- [4. Hadoop use cases](#hadoop-use-cases)
-    - [4.1 Financial Services](#financial-services)
-    - [4.2 Insurance](#insurance)
-    - [4.3 Telecommunications](#telecommunications)
-    - [4.4 Healthcare](#healthcare)
+- [4. Important tools](#important-tools)
+- [5. Hadoop use cases](#hadoop-use-cases)
+    - [5.1 Financial Services](#financial-services)
+    - [5.2 Insurance](#insurance)
+    - [5.3 Telecommunications](#telecommunications)
+    - [5.4 Healthcare](#healthcare)
 
 ## The creation of Hadoop
 
@@ -55,12 +56,9 @@ Tools built around Hadoop can be configured/extended to handle many different ta
 
 Task | Tools
 --- | ---
-ETL | s
-BI environment | s
-General data storage | s
-Predictive analysis | s
-Statistical analysis | s
-Machine learning | s
+ETL | Informatica, talend, syncsort, pentaho, StreamSets, snapLogic
+BI environment | SAS, SAP, Qlik, tableau, KNIME, Dataminer, Rapidminer
+General data storage | Oracle, Teradata, MySQL
 
 Hadoop works also with a lot of commercial products as well, for example in the BI/Business analytics sector, or the ETL part of data processing or databases. Some of them are:
 
@@ -91,6 +89,20 @@ Project | What does it do?
 [__Sentry__](http://sentry.apache.org) | Authorization tool, providing security for Hadoop
 
 The Hadoop ecosystem is growing every month and new features are frequently added such as processing frameworks, support for new file types and performance enhancements.
+
+## Important tools
+
+The following is a list of other tools and technologies that are important to understand in order to work with Big Data:
+
+* __YARN__: YARN provides a general-purpose resource manager and scheduler for Hadoop processing, which includes MapReduce, but also extends these services to other processing models. This facilitates the support of multiple processing frameworks and diverse workloads on a single Hadoop cluster, and allows these different models and workloads to effectively share resources
+* __Java__: Hadoop and many of its associated tools are built with Java, and much application development with Hadoop is done with Java. Although the introduction of new tools and abstractions increasingly opens up Hadoop development to non-Java developers, having an understanding of Java is still important when you are working with Hadoop
+* __SQL__: Although Hadoop opens up data to a number of processing frameworks, SQL remains very much alive and well as an interface to query data in Hadoop. This is understandable since a number of developers and analysts understand SQL, so knowing how to write SQL queries remains relevant when you’re working with Hadoop
+* __Scala__: Scala is a programming language that runs on the Java virtual machine (JVM) and supports a mixed object-oriented and functional programming model. Although designed for general-purpose programming, Scala is becoming increasingly prevalent in the big-data world, both for implementing projects that interact with Hadoop and for implementing applications to process data. Examples of projects that use Scala as the basis for their implementation are Apache Spark and Apache Kafka
+* __Hive__: Speaking of SQL, Hive, a popular abstraction for modeling and processing data on Hadoop, provides a way to define structure on data stored in HDFS, as well as write SQL-like queries against this data. The Hive project also provides a metadata store, which in addition to storing metadata (i.e., data about data) on Hive structures is also accessible to other interfaces such as Apache Pig (a high-level parallel programming abstraction) and MapReduce via the HCatalog component. Further, other open source projects (such as Cloudera Impala, a low-latency query engine for Hadoop) also leverage the Hive meta-store, which provides access to objects defined through Hive
+* __HBase__: HBase is another frequently used component in the Hadoop ecosystem. HBase is a distributed NoSQL data store that provides random access to extremely large volumes of data stored in HDFS. Although referred to as the Hadoop database, HBase is very different from a relational database, and requires those familiar with traditional database systems to embrace new concepts. HBase is a core component in many Hadoop architectures
+* __Flume__: Flume is an often used component to ingest event-based data, such as logs, into Hadoop
+* __Sqoop__: Sqoop is another popular tool in the Hadoop ecosystem that facilitates moving data between external data stores such as a relational database and Hadoop
+* __ZooKeeper__: The aptly named ZooKeeper project is designed to provide a centralized service to facilitate coordination for the zoo of projects in the Hadoop ecosystem
 
 ## Hadoop use cases
 
