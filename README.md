@@ -25,11 +25,11 @@ Below you will find some useful resources and [here](https://github.com/MarioCat
 
 The Mappr.it wiki hosted on Github repository.
 
-| **Big Data** | **Data Science** | **Python** |
+| **Big Data** | **Database** | **Data Science** |
 | :---: | :---: | :---: |
-| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Big-Data">![Big Data](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_bigdata.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Data-Science">![Data Science](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_data_science.png)</a> | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_python.png) |
-| **R** | **Statistics** | **Tutorials** |
-| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_r.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_statistics.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Tutorials">![Tutorials](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_tutorials.png) |
+| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Big-Data">![Big Data](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_bigdata.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Database">![Database](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_database.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Data-Science">![Data Science](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_data_science2.png) |
+| **Python** | **R** | **Statistics** |
+| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_python.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_r.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_statistics.png) |
 
 ## Credits
 
