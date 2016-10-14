@@ -3,11 +3,11 @@
 
 ## Table of contents
 
-* [Infographic](#infographic)
-* [Where to learn Data Science?](#where-to-learn-data-science)
-* [Python Resources](#python-resources)
-* [R Resources](#r-resources)
-* [Big Data and Hadoop](#big-data-and-hadoop)
+- [Infographic](#infographic)
+- [Where to learn Data Science?](#where-to-learn-data-science)
+- [Python Resources](#python-resources)
+- [R Resources](#r-resources)
+- [Big Data and Hadoop](#big-data-and-hadoop)
 
 ## Infographic
 

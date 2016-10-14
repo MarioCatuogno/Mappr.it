@@ -1,15 +1,17 @@
-# Python basics
+# Python 101 : Introduction
+*An introduction to Python.*
 
-Table of content
+## Table of content
 
-* [1. Introduction](#introduction)
-* [2. Variables and Types](#variables-and-types)
-    * [2.1 Python numbers](python-numbers)
-    * [2.2 Python strings](#python-strings)
-    * [2.3 Python lists](#python-lists)
-    * [2.4 Python tuples](#python-tuples)
-    * [2.5 Python dictionary](#python-dictionary)
-    * [2.6 Change type of variable](#change-type-of-variable)
+- [1. Introduction](#introduction)
+    - [1.1 Python setup](#python-setup)
+- [2. Variables and Types](#variables-and-types)
+    - [2.1 Python numbers](python-numbers)
+    - [2.2 Python strings](#python-strings)
+    - [2.3 Python lists](#python-lists)
+    - [2.4 Python tuples](#python-tuples)
+    - [2.5 Python dictionary](#python-dictionary)
+    - [2.6 Change type of variable](#change-type-of-variable)
 
 ## Introduction
 
@@ -33,8 +35,9 @@ print(2 ** 3)
 
 # Complex operation
 print(100 * (1.1 ** 7) / (3.5 * 2))
-
 ```
+
+#### Python setup
 
 ## Variables and types
 
