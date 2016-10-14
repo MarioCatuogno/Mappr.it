@@ -19,7 +19,7 @@
 
 The method used in this blog is *learning-by-doing* and it is targeted to people that, like me, want to change their perspective using modern statistics tools, regardless of their academic studies, age or previous job. Remember that Mappr.it is a project written by a total beginners!
 
-Below you will find some useful resources and [here](https://github.com/MarioCatuogno/Mappr.it/wiki) you can find the wiki page with the articles published on the blog.
+Below you will find some useful resources and the wiki where you can find all the articles published on the blog.
 
 ## Wiki
 
@@ -33,9 +33,10 @@ The Mappr.it wiki hosted on Github repository.
 
 ## Credits
 
-* [Independent Publisher](http://independentpublisher.me) by Raam Dev
-* [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) by Paomedia
-* [Torple Mini Font](http://www.denisechandler.com) by Denise Chandler
+* [Independent Publisher](http://independentpublisher.me) Wordpress theme by Raam Dev
+* [Pexels](http://www.pexels.com) Photos
+* [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) Icons by Paomedia
+* [Torple Mini Font](http://www.denisechandler.com) Fonts by Denise Chandler
 
 ## Contact Info
 
