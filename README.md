@@ -35,7 +35,7 @@ The Mappr.it wiki hosted on Github repository.
 
 * [Independent Publisher](http://independentpublisher.me) Wordpress theme by Raam Dev
 * [Pexels](http://www.pexels.com) Photos
-* [Small-n-flat Icons](http://paomedia.github.io/small-n-flat/) Icons by Paomedia
+* [Flat Icons](http://www.flaticon.com/authors/madebyoliver) Icons by Madebyoliver
 * [Torple Mini Font](http://www.denisechandler.com) Fonts by Denise Chandler
 
 ## Contact Info
