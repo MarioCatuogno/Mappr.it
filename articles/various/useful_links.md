@@ -22,6 +22,7 @@ Preview | Description
 [<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_r_vs_python.png" width="100" height="100" />](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_r_vs_python.png) | Pros and cons of the two major programming languages used in data science (R and Python).
 [<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_statistics_vs_ml.png" width="100" height="100" />](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_statistics_vs_ml.png) | What to choose between statistics and machine learning techniques depending on what problem to solve.
 [<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_datascience_industry.png" width="100" height="100" />](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_datascience_industry.png) | An infographic by Datacamp on key roles and positions in modern data science industry.
+[<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_statistical_language.png" width="100" height="100" />](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/infographics/info_statistical_language.png) | An infographic by Datacamp on statistical language war.
 
 ## Where to learn Data Science?
 
