@@ -52,4 +52,8 @@ There are multiple formats that are suitable for data stored in Hadoop. These in
 
 #### Compression
 
+Compression codecs commonly used with Hadoop have different characteristics; for example, some codecs compress and uncompress faster but don’t compress as aggressively, while other codecs create smaller files but take longer to compress and uncompress, and not surprisingly require more CPU.
+
 #### Data storage system
+
+While all data in Hadoop rests in HDFS, there are decisions around what the underlying storage manager should be, for example, whether you should use HBase or HDFS directly to store the data. Additionally, tools such as Hive and [**Impala**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_impala.md) allow you to define additional structure around your data in Hadoop.
