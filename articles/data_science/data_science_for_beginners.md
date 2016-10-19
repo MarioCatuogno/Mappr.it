@@ -1,4 +1,4 @@
-# Data Science for beginners
+# Data Science for beginners!
 *What is Data Science?*
 
 <p align="middle">

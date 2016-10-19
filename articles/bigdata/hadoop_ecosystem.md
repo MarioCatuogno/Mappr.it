@@ -1,4 +1,4 @@
-# The Hadoop ecosystem
+# The Hadoop Ecosystem
 *A beginners guide to the Hadoop ecosystem*
 
 <p align="middle">
