@@ -1,4 +1,4 @@
-# DWH architectures
+# Data Warehouse Architectures
 *A beginners guide to Data Warehouses*
 
 <p align="middle">

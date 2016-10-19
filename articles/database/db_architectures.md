@@ -1,4 +1,4 @@
-# DB architectures
+# Database Architectures
 *A beginners guide to Databases*
 
 <p align="middle">
