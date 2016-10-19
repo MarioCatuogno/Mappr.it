@@ -28,7 +28,7 @@ Relational databases and data warehouses are often a good fit for well-understoo
 
 #### Data storage format
 
-There are a number of file formats and compression formats supported on Hadoop. Each has particular strengths that make it better suited to specific applications. Additionally, although Hadoop provides the **Hadoop Distributed File System** (*HDFS*) for storing data, there are several commonly used systems implemented on top of HDFS, such as **HBase** for additional data access functionality and **Hive** for additional data management functionality.
+There are a number of file formats and compression formats supported on Hadoop. Each has particular strengths that make it better suited to specific applications. Additionally, although Hadoop provides the **Hadoop Distributed File System** ([**HDFS**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/hadoop_102.md)) for storing data, there are several commonly used systems implemented on top of HDFS, such as [**HBase**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_hbase.md) for additional data access functionality and [**Hive**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_hive.md) for additional data management functionality.
 
 #### Multitenancy
 
@@ -48,7 +48,7 @@ There is no such thing as a standard data storage format in Hadoop. Just as with
 
 #### File format
 
-There are multiple formats that are suitable for data stored in Hadoop. These include plain text or Hadoop-specific formats such as **SequenceFile**. There are also more complex but more functionally rich options, such as **Avro** and **Parquet**. It’s possible to create your own custom file format in Hadoop, as well.
+There are multiple formats that are suitable for data stored in Hadoop. These include plain text or Hadoop-specific formats such as **SequenceFile**. There are also more complex but more functionally rich options, such as [**Avro**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_avro.md) and [**Parquet**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_parquet.md). It’s possible to create your own custom file format in Hadoop, as well.
 
 #### Compression
 
