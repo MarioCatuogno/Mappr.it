@@ -29,7 +29,7 @@ The Mappr.it wiki hosted on Github repository.
 | :---: | :---: | :---: |
 | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Big-Data">![Big Data](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_bigdata2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Database">![Database](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_database2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Data-Science">![Data Science](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_data_science2.png) |
 | **Python** | **R** | **Statistics** |
-| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_python2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_r2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_statistics2.png) |
+| <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Python">![Python](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_python2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/R">![R](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_r2.png) | <a href="https://github.com/MarioCatuogno/Mappr.it/wiki/Statistics">![Statistics](https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/graphics/wiki_statistics2a.png) |
 
 ## Credits
 
