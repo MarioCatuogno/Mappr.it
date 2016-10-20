@@ -61,13 +61,7 @@ ETL | Informatica, talend, syncsort, pentaho, StreamSets, snapLogic
 BI environment | SAS, SAP, Qlik, tableau, KNIME, Dataminer, Rapidminer
 General data storage | Oracle, Teradata, MySQL
 
-Hadoop works also with a lot of commercial products as well, for example in the BI/Business analytics sector, or the ETL part of data processing or databases. Some of them are:
-
-<p align="middle">
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_products.png" />
-</p>
-
-Hadoop is nowadays used in many industries (*organization in financial world, healthcare, manufacturing, non-profit, etc.*), some organization that use Hadoop are:
+Hadoop works also with a lot of commercial products as well, for example in the BI/Business analytics sector, or the ETL part of data processing or databases and is nowadays used in many industries (*organization in financial world, healthcare, manufacturing, non-profit, etc.*), some organization that use Hadoop are:
 
 <p align="middle">
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_companies.png" />
