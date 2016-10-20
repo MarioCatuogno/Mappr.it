@@ -33,7 +33,7 @@
     - [6.2 ORC](#orc)
     - [6.3 Parquet](#parquet)
 - [7. Failure behavior](#failure-behavior)
-- [8. Compression](#compression)
+- [8. Types of compression](#types-of-compression)
     - [8.1 Snappy](#snappy)
     - [8.2 LZO](#lzo)
     - [8.3 Gzip](#gzip)
@@ -211,7 +211,7 @@ An important aspect of the various file formats is **failure handling**; some fo
 - **Sequence files**: will be readable to the first failed row, but will not be recoverable after that row
 - **Avro**: provides the best failure handling; in the event of a bad record, the read will continue at the next sync point, so failures only affect a portion of a file
 
-## Compression
+## Types of compression
 
 Compression is another important consideration for storing data in Hadoop, not just in terms of reducing storage requirements, but also to improve data processing performance. Because a major overhead in processing large amounts of data is disk and network I/O, reducing the **amount of data** that needs to be read and written to disk can significantly **decrease overall processing time**.
 
