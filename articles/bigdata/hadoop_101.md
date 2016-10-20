@@ -241,25 +241,13 @@ Here are some recommendations on compression in Hadoop:
 
 - **enable compression of MapReduce intermediate output**: this will improve performance by decreasing the amount of intermediate data that needs to be read and written to and from disk
 - **pay attention to how data is ordered**: often, ordering data so that like data is close together will provide better compression levels; data in Hadoop file formats is compressed in chunks, and it is the entropy of those chunks that will determine the final compression (*e.g. if you have stock ticks with the columns timestamp, stock ticker, and stock price, then ordering the data by a repeated field, such as stock ticker, will provide better compression than ordering by a unique field, such as time or stock price*)
-- **consider using a compact file format with support for splittable compression**: such as Avro. A single HDFS block can contain multiple Avro or SequenceFile blocks. Each of the Avro or SequenceFile blocks can be compressed and decompressed individually and independently of any other Avro/SequenceFile blocks. This, in turn, means that each of the HDFS blocks can be compressed and decompressed individually thereby making the data splittable, as shown in the following figure. 
+- **consider using a compact file format with support for splittable compression**: such as Avro.
 
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
+A single HDFS block can contain multiple Avro or SequenceFile blocks. Each of the Avro or SequenceFile blocks can be compressed and decompressed individually and independently of any other Avro/SequenceFile blocks. This, in turn, means that each of the HDFS blocks can be compressed and decompressed **individually** thereby making the data splittable, as shown in the following figure:
 
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks. )
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
-
-Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/images/hadoop_avro_compression.png" />
+</p>
 
 ## Useful readings
 
