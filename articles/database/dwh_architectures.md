@@ -15,6 +15,11 @@
 - [2. DWH definitions](#dwh-definitions)
     - [2.1 MOLAP](#molap)
 - [3. DWH architecture](#dwh-architecture)
+  - [3.1 DWH vs Data Marts](#dwh-vs-data-marts)
+  - [3.2 The flow of data within a DWH](#the-flow-of-data-within-a-dwh)
+  - [3.3 Metadata and data granularity](#metadata-and-data-granularity)
+- [4. DWH architecture models](#dwh-architecture-models)
+- [5. Useful readings](#useful-readings)
 
 ## DWH
 
@@ -139,6 +144,51 @@ A **Multidimensional Online Analytical Processing** (*MOLAP*) cube, is a dimensi
 
 ## DWH architecture
 
+The main components of a DWH are:
+
 <p align="middle">
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model1a.png" />
 </p>
+
+- **Operational system**: a system designed to support day-to-day *transaction processing*; the main priorities are **performance** and **availability**. This source maintains little historical data
+- **Cloud**: input data from cloud systems or other kind of flat files
+- **ETL System** (Extract Transform Load): consists of a **set of processes** with the purpose of:
+    - **Extract**: reading and understanding the data source and copying data needed into the ETL system for further manipulation
+    - **Transform**: applying calculations, cleansing, combining data from multiple sources and de-duplicating data, data integration with metadata, aggregation
+    - **Load**: load the cleansed data into the DWH
+  - **3 main components**: staging area, warehouse and data marts. These component perform many functions such as:
+    - logical conversion of files
+    - domain verification
+    - conversion from one DBMS to another
+    - creation of default values when needed
+    - summarization of data
+    - addition of time values to data key
+    - merging of records
+    - deleting redundant data
+    - restructuring of data keys
+- **Staging Area**: contains copy of the source system's extraction. The main goal is to bring the data as fast as possible from sources to ETL engine, in order to minimize the source system interaction. Data in staging area are **temporary** and can be deleted after all data is loaded into the DWH
+- **Warehouse**: is the **core component** and contains:
+  - **raw data**: atomic data required for ad-hoc user queries
+  - **summary data**: used to pre-compute long operations in advance
+  - **metadata**: can be used as documentation or for **audit** purposes
+- **Data Mart**: has the same role of the DWH but is **limited in scope**. It may server one particular department or business and exists in two forms:
+  - **independent**: those which are fed directly from source data, can have problem tuning into islands of inconsistent information
+  - **dependent**: fed from an existing DWH, dependent data marts can avoid the problem of inconsistency, but they require an enterprise-level DWH
+- **Presentation Area**: is where data are made available for **direct querying** by users, report writers and other analytical BI applications. Data are presented with a **dimensional model** (*widely accepted as the preferred CONCEPTUAL SCHEMA for presenting data, because it addresses 2 requirements simultaneously: deliver data that are understandable to the user and deliver fast query performance*)
+
+#### DWH vs Data Marts
+
+DWH | Data Marts
+--- | ---
+Holds **multiple** subject areas | Often holds a **single** subject area
+Holds **detailed** information | Hold **summarized** information
+Works to **integrate** all data sources | Concentrates information from a given subject area
+Does not necessarily use a dimensional model, but **feeds** other dimensional model DBs | Is built focused on a dimensional model using a **star schema**
+
+#### The flow of data within a DWH
+
+#### Metadata and data granularity
+
+## DWH architecture models
+
+## Useful readings
