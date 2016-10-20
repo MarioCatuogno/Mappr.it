@@ -1,5 +1,5 @@
 # Apache Parquet
-*A beginners guide to Apache Parquet*
+*A beginner's guide to Apache Parquet*
 
 <p align="middle">
 <img src="http://link.png" />

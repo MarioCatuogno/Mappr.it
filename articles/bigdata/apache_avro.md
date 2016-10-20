@@ -1,5 +1,5 @@
 # Apache Avro
-*A beginners guide to Apache Avro*
+*A beginner's guide to Apache Avro*
 
 <p align="middle">
 <img src="http://link.png" />

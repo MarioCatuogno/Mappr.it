@@ -1,5 +1,5 @@
 # Apache HBase
-*A beginners guide to Apache HBase*
+*A beginner's guide to Apache HBase*
 
 <p align="middle">
 <img src="http://link.png" />

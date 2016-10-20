@@ -1,5 +1,5 @@
 # Cloudera Hadoop
-*A beginners guide to the Cloudera Hadoop distribution*
+*An introduction to the Cloudera Hadoop distribution*
 
 <p align="middle">
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_cloudera.png" />

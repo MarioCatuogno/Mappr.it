@@ -1,5 +1,5 @@
-# Apache Impala
-*A beginner's guide to Apache Impala*
+# Apache Pig
+*A beginner's guide to Apache Pig*
 
 <p align="middle">
 <img src="http://link.png" />

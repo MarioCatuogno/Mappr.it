@@ -1,5 +1,5 @@
 # The Hadoop Ecosystem
-*A beginners guide to the Hadoop ecosystem*
+*An introduction to the Hadoop ecosystem*
 
 <p align="middle">
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_ecosystem.png" />

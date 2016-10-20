@@ -16,6 +16,9 @@
     - [2.1 File format](#file-format)
     - [2.2 Compression](#compression)
     - [2.3 Data storage system](#data-storage-system)
+- [3. Standard file format](#standard-file-format)
+    - [3.1 Text data](#text-data)
+    - [3.2 Structured text data](#structured-text-data)
 
 ## Introduction
 
@@ -57,3 +60,26 @@ Compression codecs commonly used with Hadoop have different characteristics; for
 #### Data storage system
 
 While all data in Hadoop rests in HDFS, there are decisions around what the underlying storage manager should be, for example, whether you should use HBase or HDFS directly to store the data. Additionally, tools such as Hive and [**Impala**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_impala.md) allow you to define additional structure around your data in Hadoop.
+
+## Standard file format
+
+In general, it’s preferable to use one of the Hadoop-specific container formats, but in many cases you’ll want to store source data in its raw form. As noted before, one of the most powerful features of Hadoop is the ability to store all of your data regardless of format.
+
+#### Text data
+
+A very common use of Hadoop is the storage and analysis of logs such as web logs and server logs. Such text data, of course, also comes in many other forms: **CSV** files, or unstructured data such as emails. Additionally, you’ll want to select a compression format for the files, since text files can very quickly consume considerable space on your Hadoop cluster.
+
+There is an overhead of type conversion associated with storing data in text format. For example, storing 1234 in a text file and using it as an integer requires a **string-to-integer** conversion during reading, and vice versa during writing. It also takes up more space to store 1234 as text than as an integer.
+
+Selection of compression format will be influenced by how the data will be used. For archival purposes you may choose the most compact compression available, but if the data will be used in processing jobs such as [**MapReduce**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/hadoop_103.md), you’ll likely want to select a **splittable format**. Splittable formats enable Hadoop to split files into chunks for processing, which is critical to efficient parallel processing.
+
+Note also that in many, if not most cases, the use of a **container format** such as SequenceFiles or Avro will provide advantages that make it a preferred format for most file types, including text; among other things, these container formats provide functionality to support splittable compression.
+
+#### Structured text data
+
+A more specialized form of text files is structured formats such as **XML** and **JSON**. These types of formats can present special challenges with Hadoop since splitting XML and JSON files for processing is tricky, and Hadoop does not provide a built-in **InputFormat** for either. JSON presents even greater challenges than XML, since there are no tokens to mark the beginning or end of a record. In the case of these formats, you have a couple of options:
+
+- **Use a container format such as Avro**: transforming the data into Avro can provide a compact and efficient way to store and process the data
+- **Use a library designed for processing XML or JSON files**: Examples of this for XML include **XMLLoader** in the [**PiggyBank**](https://cwiki.apache.org/confluence/display/PIG/PiggyBank) library for Pig. For JSON, the [**Elephant Bird project**](https://github.com/twitter/elephant-bird) provides the **LzoJsonInputFormat**.
+
+Excerpt From: Mark Grower. “Hadoop Application Architectures.” iBooks.

@@ -1,5 +1,5 @@
 # Apache Sqoop
-*A beginners guide to Apache Sqoop*
+*A beginner's guide to Apache Sqoop*
 
 IMG:APACHE SQOOP
 

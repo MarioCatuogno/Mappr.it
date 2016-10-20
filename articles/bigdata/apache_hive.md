@@ -1,5 +1,5 @@
 # Apache Hive
-*A beginners guide to Apache Hive*
+*A beginner's guide to Apache Hive*
 
 <p align="middle">
 <img src="http://link.png" />
