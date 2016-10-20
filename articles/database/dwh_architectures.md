@@ -140,5 +140,5 @@ A **Multidimensional Online Analytical Processing** (*MOLAP*) cube, is a dimensi
 ## DWH architecture
 
 <p align="middle">
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model1.png" />
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model1a.png" />
 </p>
