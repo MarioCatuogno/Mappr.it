@@ -19,7 +19,10 @@
   - [3.2 The flow of data within a DWH](#the-flow-of-data-within-a-dwh)
   - [3.3 Metadata and data granularity](#metadata-and-data-granularity)
 - [4. DWH architecture models](#dwh-architecture-models)
-- [5. Useful readings](#useful-readings)
+- [5. OLTP schema](#oltp-schema)
+  - [5.1 Dimensional model](#dimensional-model)
+  - [5.2 Normalized model](#normalized-model)
+- [6. Useful readings](#useful-readings)
 
 ## DWH
 
@@ -59,7 +62,7 @@ It may involve transactions, production, marketing, HR and more. It must resolve
 
 Once data is in the DWH, it will not change, so **historical data** should never been altered.
 
-The DWH separate **analysis workload** from **transactional workload** and enable the organization to consolidate data from several sources. This helps maintaining historical records, analyzing data to gain better understand of the business.   
+The DWH separate **analysis workload** from **transactional workload** and enable the organization to consolidate data from several sources. This helps maintaining historical records, analyzing data to gain better understand of the business.
 
 - **DWH is time-variant**
 
@@ -190,5 +193,21 @@ Does not necessarily use a dimensional model, but **feeds** other dimensional mo
 #### Metadata and data granularity
 
 ## DWH architecture models
+
+## OLTP schema
+
+The goal of an **OLTP schema** usually is to normalize the data so as to reduce redundancy and provide data integrity. It allows the user to easily and atomically create, delete or update a given field in just one table and have it automatically propagated thereafter.
+
+Traditonal DWH design usually involves a variant of one of two common approaches for data modeling: the **dimensional model** (*star schema*) or the **normalized model**.
+
+In general, the dimensional approach is easier and faster when you're performing analytical queries, while the normalized approach makes updating information easier.
+
+#### Dimensional model
+
+A dimensional model starts with a **FACT TABLE**, immutable values or measurements about entities in the DB (*e.g. phone call in a telecom use case, sale in a retail use case, etc*). To this fact table, the dimensional approach adds **DIMENSIONS**, tables with details about the entities in the system that give context to the facts (*e.g. in a retail example, a fact can be the sale of an item, the date of purchase and the location of purchase*).
+
+#### Normalized model
+
+A normalized approach to DWH, involves a design very similar to an OLTP database. Tables are created by **ENTITY** and designed to preserve the **3NF** where attributes depend on the primary key in its entirety (*e.g. in a retail example, an items table will contain the item name, since it depends completely on the item ID, but not the manufacturer name, which does not*). As results, queries on a normalized DWH schema usually involve long chains of joins.
 
 ## Useful readings
