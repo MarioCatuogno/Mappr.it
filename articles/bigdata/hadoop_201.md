@@ -56,6 +56,8 @@ The following figure shows a high-level view of an architecture where Hadoop com
 
 As seen [**here**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/database/dwh_architectures.md#oltp-schema), the goal of an OLTP schema is to normalize the data so as to reduce redundancy and provide data integrity.
 
+The **dimensional model** tends to be a better fit for analysis in Hadoop.
+
 ## Useful readings
 
 - [**Hadoop Application Architectures**](https://www.safaribooksonline.com/library/view/hadoop-application-architectures/9781491910313/) -  A book on architecting end-to-end data management solutions with Apache Hadoop
