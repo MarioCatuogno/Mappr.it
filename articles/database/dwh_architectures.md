@@ -211,3 +211,5 @@ A dimensional model starts with a **FACT TABLE**, immutable values or measuremen
 A normalized approach to DWH, involves a design very similar to an OLTP database. Tables are created by **ENTITY** and designed to preserve the **3NF** where attributes depend on the primary key in its entirety (*e.g. in a retail example, an items table will contain the item name, since it depends completely on the item ID, but not the manufacturer name, which does not*). As results, queries on a normalized DWH schema usually involve long chains of joins.
 
 ## Useful readings
+
+- [**Fundamentals of DBMS**](https://www.amazon.com/Fundamentals-Database-Management-Systems-Gillenson/dp/0470624701) - A book that provides concise coverage of the fundamental topics necessary for a deep understanding of the basics of DBMS

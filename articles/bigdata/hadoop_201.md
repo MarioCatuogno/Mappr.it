@@ -54,7 +54,7 @@ The following figure shows a high-level view of an architecture where Hadoop com
 
 ## OLTP schema with Hadoop
 
-As seen [**here**]()
+As seen [**here**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/database/dwh_architectures.md#oltp-schema), the goal of an OLTP schema is to normalize the data so as to reduce redundancy and provide data integrity.
 
 ## Useful readings
 
