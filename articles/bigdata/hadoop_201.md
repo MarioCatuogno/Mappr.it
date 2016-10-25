@@ -14,6 +14,9 @@
   - [3.2 Updates in Hadoop](#updates-in-hadoop)
   - [3.3 Storage format](#storage-format)
   - [3.4 Partitioning](#partitioning)
+  - [3.5 Ingestion](#ingestion)
+- [4. Data processing and access](#data-processing-and-access)
+  - [4.1 Automate the workflow](#automate-the-workflow)
 - [X. Useful readings](#useful-readings)
 
 ## Introduction
@@ -129,6 +132,63 @@ For data sets that get appended (*USER_HISTORY*) usually Avro is a better choice
 For compression [**Snappy**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/hadoop_101.md#snappy) is one of the most used compression codecs for all data sets stored in Avro or Parquet.
 
 #### Partitioning
+
+Correctly partitioning the data can eliminate large amounts of unnecessary **I/O operations** by allowing execution engines to skip parts of the data that are not necessary to execute the query.
+
+Usually we want the average partition size to be at least a few multiples of the **HDFS block** sizes (*usually 64MB or 128MB*). A good canonical size for average partitioning size is **1GB**. For example, in the previous case:
+
+Data set | Partition | Partitioning column | Description
+--- | :---: | --- | ---
+USER | :heavy_multiplication_x: | N/A | Too small to be partitioned
+USER_HISTORY | :heavy_check_mark: | Timestamp when the user information was last updated | For reduced I/O when using this data set to populate the USER data set. It is partitioned by day
+
+#### Ingestion
+
+Most of the time Hadoop ingest structured data from OLTP databases, but in addition, Hadoop makes it possible to ingest non-relational data (*reviews from Twitter, photos from Facebook, etc*).
+
+There are multiple options for ingesting data from relational databases to Hadoop. **Sqoop** is by far the most popular option. Another option some Hadoop users attempt is to dump data from the DBMS to files and load these files to Hadoop.
+
+There are various types of tables:
+
+- **tables that rarely change**: we can extract these to Hadoop once and reimport on an as-needed
+- **tables that are modified regularly but are small**: we can extract these to Hadoop in full daily, without worrying about tracking changes depending on the exact size and available bandwidth
+- **tables that are modified regularly and are large**: for these tables we need a way to find modifications done in the last day and extract only these modifications to Hadoop. These tables may be **append-only** (*without updates*), in which case we simply need to add the new rows to the table in Hadoop. Or they may have updates, in which case we need to merge the modifications.
+
+For example, since the USER table is small enough, we simply want to copy it over every run from the OLTP database to Hadoop. The joins from original OLTP can be done during the Sqoop job or directly in Hadoop. We use the first option when the join is simple and the query performed are not complex, while we use the second one when the database is more complex and the queries are more difficult.
+
+After importing the data, we want to create a matching **Hive table**, which will later used for transformations. We always create the tables as EXTERNAL; this allows us to drop or modify the table without losing the data.
+
+If the original table is insert-only, the Sqoop job will append new data to a Hive table every time we run the job.
+
+## Data processing and access
+
+Let's assume that we have decided to store the data in HDFS, and that for our USER table example we need to update the entire table with new records we Sqooped from our OLTP database. After the incremental Sqoop job is finished, we have two directories with interesting data:
+
+- `/data/USER`: the existing table
+- `/etl/USER_INSERT`: new records or updated one
+
+We then create a Hive table that simply provides a tabular view on top of these records that we need to insert. All we have to do at this point is to write a query that merges USER_INSERT with the existing USER data and overwrites the table with the result of the merge.
+
+Very frequently, the whole point of performing ETL in Hadoop is to support aggregations that are very expensive to perform in a relational database. The best optimization opportunities occur when the aggregation involves very simple aggregations (*sum, count or average*); these types of aggregations are a fantastic fit for Hadoop. You can aggregate in **Hive** or **Impala** using the `CREATE TABLE AS SELECT` (or **CTAS**) pattern.
+
+After the data is processed, we need to decide what to do with the results. One option is to simply keep it in Hadoop, and query it using Impala and BI tools that integrate with it. But in many cases the business already has large investments in applications, that are using the existing relational DWH. Transitioning all of the to Hadoop is a significant investment and one that doesn't always makes sense. The most popular option to export processed data from Hadoop to DWH is **Sqoop**. Instead of running `sqoop import` we run `sqoop export`, which works by inserting rows in batches and committing data to the DB every few batches. This means that there will be multiple DBs commits while data is exported, and if the export fails halfway through, there may be rows remaining in the DB that can be challenging to clean up. That's why we usually configure Sqoop to import to a staging table and only move the data to the actual table when all the data has ben successfully exported.
+
+#### Automate the workflow
+
+After the entire ETL process is developed, it is time to automate the workflow. The orchestration can be done through **Oozie**, in this case the workflow is likely to include:
+
+- a **Sqoop action** for retrieving the data
+- a **Hive action** to join, partition or merge the data sets
+- multiple **Hive or MapReduce actions** for aggregation
+- a **Sqoop action** for exporting the results to a DWH
+
+It is important to note that the workflow will include multiple Sqoop actions (one for each table), multiple partition or merge steps, multiple aggregations and so on.
+
+To conclude, the next figure shows what the overall workflow may look like:
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_hadoop201_model4.png"/>
+</p>
 
 ## Useful readings
 
