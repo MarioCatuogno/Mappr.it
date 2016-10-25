@@ -5,6 +5,8 @@
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/headers/header_hadoop_201.png" />
 </p>
 
+`NOTE: This article is an excerpt from Mark Grower, "Hadoop Application Architectures"`
+
 ## Table of contents
 
 - [1. Introduction](#big-data-and-data-science)
