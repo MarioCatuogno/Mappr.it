@@ -19,7 +19,7 @@
   - [3.5 Ingestion](#ingestion)
 - [4. Data processing and access](#data-processing-and-access)
   - [4.1 Automate the workflow](#automate-the-workflow)
-- [X. Useful readings](#useful-readings)
+- [5. Useful readings](#useful-readings)
 
 ## Introduction
 
