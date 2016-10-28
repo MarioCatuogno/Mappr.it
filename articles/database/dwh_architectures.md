@@ -19,6 +19,14 @@
   - [3.2 The flow of data within a DWH](#the-flow-of-data-within-a-dwh)
   - [3.3 Metadata and data granularity](#metadata-and-data-granularity)
 - [4. DWH architecture models](#dwh-architecture-models)
+  - [4.1 Independent Data Marts](#independent-data-marts)
+  - [4.2 Data Marts Bus architecture with linked Dimensional Marts](#data-marts-bus-architecture-with-linked-dimensional-marts)
+  - [4.3 Hub and Spoke](#hub-and-spoke)
+  - [4.4 Centralized DWH](#centralized-dwh)
+  - [4.5 Federated](#federated)
+  - [4.6 Inmon DWH model](#inmon-dwh-model)
+  - [4.7 Kimball DWH model](#kimball-dwh-model)
+  - [4.8 The future of DWH](#the-future-of-dwh)
 - [5. OLTP schema](#oltp-schema)
   - [5.1 Dimensional model](#dimensional-model)
   - [5.2 Normalized model](#normalized-model)
@@ -190,10 +198,98 @@ Does not necessarily use a dimensional model, but **feeds** other dimensional mo
 
 #### The flow of data within a DWH
 
+Step | Description
+--- | ---
+**Data Collection** | Identify the *data sources*. The owner of the data source should be responsible for maintaining data quality.
+**Transformation and Cleansing** | The most time-consuming phase. Data are usually re-structured to optimize subsequent use for querying, reporting and analysis. This is usually done in the *staging area*. Cleansing consists of sending source data through a series of processing steps to improve the quality of data, some tasks are: correction of mispellings, resolving of domain conflicts, dealing with NAs or parsing into standard formats. The *data feed* needs to be run on a regular basis to keep the DWH up-to-date. This often has to be completed within the *overnight time window*.
+**Analysis** | Selected data are taken from the central warehouse and processed to produce useful results. Often the most frequently accessed data are first summarized and then stored into Data Marts.
+**Presentation** | Is displaying results for the end user, usually in the form of reports. The results might appear as text or charts and could be viewed online, printed or published on a web server.
 
 #### Metadata and data granularity
 
+**Metadata** is data that provides information about other data. There are various versions of metadata:
+
+- **Business metadata**: it has the data ownership information, business definition and policies
+- **Technical metadata**: it includes database system names, table and columns names and sizes, data types and allowed values. Also includes structural information such as primary and foreign keys
+- **Operational metadata**: it includes currency of data and data lineage. Currency of data means whether the data is active, achieved or purged. Lineage of data means the history of data migrated and then transformation applied on it
+- **Diagnostic metadata**: cleaning activities can be architectured to create diagnostic metadata, eventually leading to business process re-engineering to improve data quality in the source system over time
+- **Audit dimension**: when a fact table is created in the ELT system, it is helpful to create an audit dimension containing the ETL processing metadata known at the time. A simple audit dimension row could contain one or more basic indicators of data quality, usually derived from an *error event schema* that records data quality violations encountered while processing the data
+- **Atomic data**: DWH should contain atomic data, which are required to withstand *assaults* from unpredictable ad-hoc user queries. The most finely-grained data must be available in the presentation area so that the user can ask the most precise question possible.
+
 ## DWH architecture models
+
+DWH and their architecture vary depending upon the specifics of the organization. The most commons are:
+
+#### Independent Data Marts
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model2.png"/>
+</p>
+
+Is common for *organizational units* to develop their own data marts. These marts typically have **inconsistent data definitions** and use different dimensions and measures, so the architecture is difficult to analyze across all marts.
+
+#### Data Marts Bus architecture with linked Dimensional Marts
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model3.png"/>
+</p>
+
+The building starts with the analysis of a business process, using **dimensions** and **measures** that will be used with other data marts (*conformed dimensions*). Additional marts are built with these dimensions and measures, which results in logically integrated marts with an *enterprise view* of the data. **Atomic** and **summarized** data are kept in the marts and are organized in a **Star Schema** to provide a dimensional view of data.
+
+#### Hub and Spoke
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model4.png"/>
+</p>
+
+The **Normalized Relational DWH** is the center of this architecture, built upon an extensive enterprise-level analysis of *data requirements*. **Atomic data** is maintained in the DWH in **3NF**, while **summarized data** are kept in the data marts which use the DWH as source system.
+
+#### Centralized DWH
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model5.png"/>
+</p>
+
+There are no dependent data marts. The DWH contains **atomic data**, some **summarized data** and **logical dimensional view** of the data.
+
+#### Federated
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model6.png"/>
+</p>
+
+Practical solution for firms that have a pre-existing, complex decision-support environment and do not want to rebuilt it. The data is either logically or physically integrated using **shared keys**, **global metadata**, **distributed queries** or other methods.
+
+#### Inmon DWH model
+
+[William Inmon](https://en.wikipedia.org/wiki/Bill_Inmon) suggests a **top-down development approach** that adapts traditional RDBMS tools to the development needs of an enterprise-wide DWH.
+
+He defines DWH as a "*centralized 3NF relational repository for the entire enterprise*", which provides a **logical framework** for delivering BI. A normalized data model is designed first to store atomic data at the lowest level of detail, then the **individual dimensional data marts**, which contain data required for specific business processes or departments, are created from the DWH for decision-support tasks.
+
+#### Kimball DWH model
+
+[Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball) suggest a **bottom-up approach** that uses **dimensional modeling** as a unique technique to design a DWH. The data marts facilitate reports and analysis and are created first. These provide a thin view into the organization's data, and, when required, they can be combined into a larger DWH.
+
+Enterprise cohesion is given by a **data mart bus standard**.
+
+#### The future of DWH
+
+ | Inmon | Kimball
+ --- | --- | ---
+ **Building DWH** | Time consuming | Takes less time
+ **Maintainance** | Easy | Difficult, redundant and subject to revision
+ **Cost** | High initial costs. Subsequent phases cost lower | Low initial cost. Subsequent phases costs the same
+ **Time** | Longer start-up time | Shorter start-up time
+ **Data Integration requirements** | Enterprise-wide | Individual business areas
+
+ The harder you work on really conforming the dimensions, the more your data marts looks like the DWH that Inmon advocates.
+
+ While the ETL (*Extract Transform Load*) data transformation is performed in staging area, in ELT (*Extract Load Transform*) raw data is loaded directly into the DWH and transformed there.
+
+ **ELT** is more useful for processing the large data sets required for big data analytics applications. The two previous authors have a different vision:
+
+ - **Inmon 2.0**: new paradigm of DWH. Focus on the basic types of data, their structure, and how they relate to form a powerful store of data that meets the organization's needs for information. It is based on **data life-cycle** and its **declining probability of access**
+ - **Kimball 2.0**: data feeds from sources must support huge bandwidths, metadata must be **open**, **universal**, **extensible**, **customizable** and **powerful**
 
 ## OLTP schema
 
@@ -214,3 +310,4 @@ A normalized approach to DWH, involves a design very similar to an OLTP database
 ## Useful readings
 
 - [**Fundamentals of DBMS**](https://www.amazon.com/Fundamentals-Database-Management-Systems-Gillenson/dp/0470624701) - A book that provides concise coverage of the fundamental topics necessary for a deep understanding of the basics of DBMS
+- [**The DWH toolkit**](http://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/) - A classic guide to dimensional modeling which provides a complete collection of modeling techniques.
