@@ -150,7 +150,7 @@ A **Multidimensional Online Analytical Processing** (*MOLAP*) cube, is a dimensi
 The main components of a DWH are:
 
 <p align="middle">
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model1a.png" />
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_dwh_model1b.png" />
 </p>
 
 - **Operational system**: a system designed to support day-to-day *transaction processing*; the main priorities are **performance** and **availability**. This source maintains little historical data
@@ -189,6 +189,7 @@ Works to **integrate** all data sources | Concentrates information from a given 
 Does not necessarily use a dimensional model, but **feeds** other dimensional model DBs | Is built focused on a dimensional model using a **star schema**
 
 #### The flow of data within a DWH
+
 
 #### Metadata and data granularity
 
