@@ -262,13 +262,13 @@ Practical solution for firms that have a pre-existing, complex decision-support 
 
 #### Inmon DWH model
 
-[William Inmon](https://en.wikipedia.org/wiki/Bill_Inmon) suggests a **top-down development approach** that adapts traditional RDBMS tools to the development needs of an enterprise-wide DWH.
+[**William Inmon**](https://en.wikipedia.org/wiki/Bill_Inmon) suggests a **top-down development approach** that adapts traditional RDBMS tools to the development needs of an enterprise-wide DWH.
 
 He defines DWH as a "*centralized 3NF relational repository for the entire enterprise*", which provides a **logical framework** for delivering BI. A normalized data model is designed first to store atomic data at the lowest level of detail, then the **individual dimensional data marts**, which contain data required for specific business processes or departments, are created from the DWH for decision-support tasks.
 
 #### Kimball DWH model
 
-[Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball) suggest a **bottom-up approach** that uses **dimensional modeling** as a unique technique to design a DWH. The data marts facilitate reports and analysis and are created first. These provide a thin view into the organization's data, and, when required, they can be combined into a larger DWH.
+[**Ralph Kimball**](https://en.wikipedia.org/wiki/Ralph_Kimball) suggest a **bottom-up approach** that uses **dimensional modeling** as a unique technique to design a DWH. The data marts facilitate reports and analysis and are created first. These provide a thin view into the organization's data, and, when required, they can be combined into a larger DWH.
 
 Enterprise cohesion is given by a **data mart bus standard**.
 
