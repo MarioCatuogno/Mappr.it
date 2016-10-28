@@ -16,6 +16,10 @@
   - [2.3 Block caching](#block-caching)
   - [2.4 HDFS federation](#hdfs-federation)
   - [2.5 HDFS high availability](#hdfs-high-availability)
+  - [2.6 File permission in HDFS](#file-permission-in-hdfs)
+- [3. Data flow with HDFS](#data-flow-with-hdfs)
+  - [3.1 Anatomy of File Read](#anatomy-of-file-read)
+  - [3.2 Anatomy of File Write](#anatomy-of-file-write)
 - [X. Useful readings](#useful-readings)
 
 ## Introduction
@@ -77,6 +81,38 @@ HDFS federation, introduced with Hadoop 2.x release series, allows a cluster to 
 
 #### HDFS high availability
 
+In Hadoop 2.x there is the support for **HDFS High Availability** (HA). In this implementation, there are a pair of namenodes in an active-standby configuration. In the event of the failure of the active namenode, the standby takes over its duties to continue servicing client requests without a significant interruption.
+
+The transition from the active namenode to the standby is managed by a new entity in the system called the *failover controller*. There are various failover controllers, but the default implementation uses [**Zookeeper**](https://github.com/MarioCatuogno/Mappr.it/blob/master/articles/bigdata/apache_zookeeper.md) to ensure that only one namenode is active.
+
+#### File permission in HDFS
+
+HDFS has a permissions model for files and directories that is much like the [**POSIX model**](https://en.wikipedia.org/wiki/POSIX). There are three types of permission:
+
+- **read permission** (r): is required to read files or list the contents of a directory
+- **write permission** (w): is required to write a file or, for a directory, to create or delete files or directories in it
+- **execute permission** (x): is ingored for a file because you can't execute a file on HDFS (unlike POSIX), and for a directory this permission is required to access its children
+
+## Data flow with HDFS
+
+#### Anatomy of File Read
+
+To get an idea of how data flows between the client interacting with HDFS, the namenode and the datanodes, the following figure shows the main sequence of events when reading a file:
+
+<p align="middle">
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Mappr.it/master/charts/diagram_hadoop102_model1.png"/>
+</p>
+
+- (*step 1*): the client opens the file it wishes to read by calling `open()` on the **FileSystem** object, which for HDFS is an instance of **DistributedFileSystem**
+- (*step 2*): the DistributedFileSystem calls the namenode to determine the locations of the first few blocks in the file. For each block, the namenode returns the addresses of the datanodes that have a copy of that block, furthermore, the datanodes are sorted according to their proximity to the client
+- (*step 3*): the DistributedFileSystem returns an **FSDataInputStream** to the client for it to read data from. The client calls `read()` on the stream. FSDataInputStream, which has stored the datanode addresses for the first few blocks in the file, then connects to the first (closest) datanode for the first block in the file
+- (*step 4*): data is streamed from the datanode back to the client, which calls `read()` repeatedly on the stream
+- (*step 5*): when the end of the block is reached, FSDataInputStream will close the connection to the datanode, then find the best datanode for the next block
+- (*step 6*): when the client has finished reading, it calls `close()` on the FSDataInputStream
+
+The FSDataInputStream also verifies the *checksums* for the data transferred to it from the datanode; if a corrupted block is found, it attempts to read a replica of the block from another datanode, reporting the corrupted block to the namenode. 
+
+#### Anatomy of File Write
 
 
 ## Useful readings
