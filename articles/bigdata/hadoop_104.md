@@ -1,5 +1,5 @@
-# Apache HBase
-*A beginner's guide to Apache HBase*
+# Hadoop 103 : Yarn
+*An introduction to Yarn*
 
 <p align="middle">
 <img src="http://link.png" />
@@ -12,7 +12,6 @@
 
 ## Introduction
 
-**Apache HBase** is a column-oriented real-time database for random read/write access.
 
 ## Useful readings
 
