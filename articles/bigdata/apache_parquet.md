@@ -7,11 +7,12 @@
 
 ## Table of contents
 
-- [1. Introduction](#big-data-and-data-science)
+- [1. Introduction](#introduction)
 - [X. Useful readings](#useful-readings)
 
 ## Introduction
 
+**Apache Parquet** is an efficient columnar storage format for nested data.
 
 ## Useful readings
 

@@ -25,17 +25,22 @@ Component | Description
 --- | ---
 [__Apache Hadoop (Core)__](http://www.cloudera.com/products/apache-hadoop/hdfs-mapreduce-yarn.html) | reliable, scalable, distributed storage and computing
 [__Apache Accumulo__](http://www.cloudera.com/products/apache-hadoop/apache-accumulo.html) | a secure, distributed data store to serve performance-intensive Big Data applications
+[__Apache Avro__](https://avro.apache.org) | a cross-language data serialization library which includes rich data structures, a fast/compact binary format and RPC
+[__Apache Crunch__](https://crunch.apache.org) | a high-level Java API for writing data processing pipelines that can run on MapReduce or Spark
 [__Apache Flume__](http://www.cloudera.com/products/apache-hadoop/apache-flume.html) | for collecting and aggregating log and event data and real-time streaming into Hadoop
 [__Apache HBase__](http://www.cloudera.com/products/apache-hadoop/apache-hbase.html) | scalable record and table storage, with real-time read/write access
 [__Apache Hive__](http://www.cloudera.com/products/apache-hadoop/apache-hive.html) | familiar SQL framework with metadata repository for batch processing of Hadoop data
-[__HUE__](http://www.cloudera.com/products/apache-hadoop/hue.html) | the extensible web GUI that makes Hadoop users more productive
+[__Apache Hue__](http://www.cloudera.com/products/apache-hadoop/hue.html) | the extensible web GUI that makes Hadoop users more productive
 [__Apache Impala__](http://www.cloudera.com/products/apache-hadoop/impala.html) | the analytic database native to Hadoop for low-latency queries under multi-user workloads
 [__Apache Kafka__](http://www.cloudera.com/products/apache-hadoop/apache-kafka.html) | the backbone for distributed real-time processing of Hadoop data
-[__Apache Pig__](http://www.cloudera.com/products/apache-hadoop/apache-pig.html) | high-level data flow language for processing data stored in Hadoop
+[__Apache Mahout__](https://mahout.apache.org) | scalable machine learning and data mining algorithms
+[__Apache Oozie__](http://oozie.apache.org) | a workflow scheduler for interdependent Hadoop jobs
+[__Apache Pig__](http://www.cloudera.com/products/apache-hadoop/apache-pig.html) | high-level data flow language for processing large data sets stored in Hadoop
 [__Apache Sentry__](http://www.cloudera.com/products/apache-hadoop/apache-sentry.html) | fine-grained, role-based authorization for Impala and Hive
 [__Cloudera Search__](http://www.cloudera.com/products/apache-hadoop/apache-solr.html) | powered by Solr to make Hadoop accessible to everyone via integrated full-text search
 [__Apache Spark__](http://www.cloudera.com/products/apache-hadoop/apache-spark.html) | the open standard for in-memory batch and real-time processing for advanced analytics
 [__Apache Sqoop__](http://www.cloudera.com/products/apache-hadoop/apache-sqoop.html) | data transport engine for integrating Hadoop with relational databases
+[__Apache Zookeeper__](https://zookeeper.apache.org) | highly available coordination service for distributed applications
 
 ## Cloudera Manager
 
