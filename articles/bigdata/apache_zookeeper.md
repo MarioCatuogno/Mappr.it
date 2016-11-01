@@ -1,5 +1,5 @@
-# Apache Zookeeper
-*A beginner's guide to Apache Zookeeper*
+# Apache ZooKeeper
+*A beginner's guide to Apache ZooKeeper*
 
 <p align="middle">
 <img src="http://link.png" />
