@@ -1,5 +1,5 @@
-# Hadoop 104 : Yarn
-*An introduction to Yarn*
+# Hadoop 104 : YARN
+*An introduction to YARN*
 
 <p align="middle">
 <img src="http://link.png" />
