@@ -12,7 +12,9 @@
 
 ## Introduction
 
-**Apache Hive** is a SQL-like queries and tables for large data sets.
+**Apache Hive** is a SQL-like language for large data sets. Hive was initially developed by Facebook in 2007 to help the company handle massive amounts of new data. 
+
+It is essentially a data warehouse system built on top of Hadoop which facilitates easy data summarization, ad-hoc queries, and the analysis of very large datasets that are stored in Hadoop. It provides a SQL interface, better known as **HiveQL** (**HQL**), which allows for easy querying of data, with its own *Data Definition* and *Data Manipulation* languages.
 
 ## Useful readings
 
