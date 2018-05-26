@@ -48,6 +48,16 @@ Hive supports columns that are **structs**, **maps** and **arrays**:
 | **Map** | A collection of key-value tuples, where the fields are accessed using array notation (e.g., ['key']). For example, if a column name is of type MAP with key→value pairs 'first'→'John' and 'last'→'Doe', then the last name can be referenced using name['last'] | map('first', 'John', 'last', 'Doe') |
 | **Array** | Ordered sequences of the same type that are indexable using zero-based integers. For example, if a column name is of type ARRAY of strings with the value ['John', 'Doe'], then the second element can be referenced using name[1] | array('John', 'Doe') |
 
+Here is a table declaration that demonstrates how to use these types:
+
+```hql
+CREATE TABLE movies (
+name      STRING,
+rating    FLOAT,
+plot      ARRAY<STRING>,
+location  STRUCT<nation:STRING, city:STRING, zip:INT>);
+```
+
 ## Useful readings
 
 - [**Link1**](https:link1.com) - Description
