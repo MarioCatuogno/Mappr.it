@@ -41,7 +41,6 @@ The following table lists the primitive types supported by Hive:
 
 Hive supports columns that are **structs**, **maps** and **arrays**:
 
-
 | **Type** | **Descrpition** | **Example** |
 | :---: | :---: | :---: |
 | **Struct** |  Fields can be accessed using the “dot” notation. For example, if a column name is of type STRUCT {first STRING; last STRING}, then the first name field can be referenced using name.first | struct('John', 'Doe') |
@@ -50,7 +49,7 @@ Hive supports columns that are **structs**, **maps** and **arrays**:
 
 Here is a table declaration that demonstrates how to use these types:
 
-```hql
+```sql
 CREATE TABLE movies (
 name      STRING,
 rating    FLOAT,
