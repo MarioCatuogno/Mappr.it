@@ -29,6 +29,16 @@ The following table lists the primitive types supported by Hive:
 | **Type** | **Size** | **Example** |
 | :---: | :---: | :---: |
 | **Tinyint** | 1 byte signed integer | 20 |
+| **Smallint** | 2 byte signed integer | 20 |
+| **Int** | 4 byte signed integer | 20 |
+| **Bigint** | 8 byte signed integer | 20 |
+| **Boolean** | Boolean true or false | TRUE |
+| **Float** | Single precision floating point | 3.14159 |
+| **Double** | Double precision floating point | 3.14159 |
+| **String** | Sequence of characters. The character set can be specified. Single or double quotes can be used | "Now it's the time" |
+| **Timestamp** | Integer, float, or string | 1327882394 (Unix epoch seconds) |
+| **Binary** | Array of bytes | |
+
 ## Useful readings
 
 - [**Link1**](https:link1.com) - Description
