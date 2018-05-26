@@ -39,6 +39,15 @@ The following table lists the primitive types supported by Hive:
 | **Timestamp** | Integer, float, or string | 1327882394 (Unix epoch seconds) |
 | **Binary** | Array of bytes | |
 
+Hive supports columns that are **structs**, **maps** and **arrays**:
+
+
+| **Type** | **Descrpition** | **Example** |
+| :---: | :---: | :---: |
+| **Struct** |  Fields can be accessed using the “dot” notation. For example, if a column name is of type STRUCT {first STRING; last STRING}, then the first name field can be referenced using name.first | struct('John', 'Doe') |
+| **Map** | A collection of key-value tuples, where the fields are accessed using array notation (e.g., ['key']). For example, if a column name is of type MAP with key→value pairs 'first'→'John' and 'last'→'Doe', then the last name can be referenced using name['last'] | map('first', 'John', 'last', 'Doe') |
+| **Array** | Ordered sequences of the same type that are indexable using zero-based integers. For example, if a column name is of type ARRAY of strings with the value ['John', 'Doe'], then the second element can be referenced using name[1] | array('John', 'Doe') |
+
 ## Useful readings
 
 - [**Link1**](https:link1.com) - Description
