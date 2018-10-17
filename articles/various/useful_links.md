@@ -76,3 +76,4 @@ Title | Descrpition
 Title | Descrpition
 --- | ---
 [Understanding Big Data](https://www.ibm.com/developerworks/vn/library/contest/dw-freebooks/Tim_Hieu_Big_Data/Understanding_BigData.PDF) | PDF written by IBM about analytics for enterprise class Hadoop and streaming data.
+[Big Data & Hadoop Tutorials](https://www.youtube.com/playlist?list=PLr0GuAb3MR-wEDZwetSvzvc-CKVSGruhq) | A Youtube series for beginners about Big Data and Hadoop.
